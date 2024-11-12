@@ -1,0 +1,948 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel
+T_opt
+!s110 1699829591
+Vm@U=LF>JiHAEbCz6hUOW@0
+04 17 9 work forwardingunit_tb testbench 1
+=1-0050569b3feb-65515757-4bf9b-4c9f
+R1
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2023.2_2;77
+R3
+T_opt1
+!s110 1699829856
+VWh^fR[G7b3R;RcfC[RXJU2
+04 17 9 work hazarddetector_tb testbench 1
+=1-0050569b3feb-65515860-77c96-4dd5
+R1
+R4
+R5
+R6
+R7
+n@_opt1
+R8
+R3
+Eadd
+Z9 w1699453156
+Z10 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z11 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z12 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 17
+Z13 d/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel
+Z14 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ADD.vhd
+Z15 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ADD.vhd
+l0
+L5 1
+VQBH0BS98Ki=C]dzOZd3mM3
+!s100 `moG:Ee1dCPFm3TzJ^`Z`2
+Z16 OL;C;2023.2_2;77
+32
+Z17 !s110 1700004051
+!i10b 1
+Z18 !s108 1700004051.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ADD.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Add4.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Adder_32bits.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ADDU.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ALU.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/AndG.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Barrel_Shifter.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/BranchChecker.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/bus_array.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/decoder5x32.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/dffg.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/andg2.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ForwardingUnit.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/HazardDetector.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/invg.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/LUI.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mem.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_Processor.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux2t1.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux2t1_N.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux16t1.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux16t1_32bit.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux32x1.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SLL2_32bits.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SignExtender.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/RegFile.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Reg_N.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/OrG.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/NorG.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/org2.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SLT.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SUB.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SUBU.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/XorG.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ZeroExtender.vhd|
+Z20 !s107 /home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ZeroExtender.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/XorG.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SUBU.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SUB.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SLT.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/org2.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/NorG.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/OrG.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Reg_N.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/RegFile.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SignExtender.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/SLL2_32bits.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux32x1.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux16t1_32bit.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux16t1.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux2t1_N.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mux2t1.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_Processor.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mem.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/LUI.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/invg.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/HazardDetector.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ForwardingUnit.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/andg2.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/dffg.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/decoder5x32.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/bus_array.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/BranchChecker.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Barrel_Shifter.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/AndG.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ALU.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ADDU.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Adder_32bits.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Add4.vhd|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ADD.vhd|
+!i113 0
+Z21 o-work work
+Z22 tExplicit 1 CvgOpt 0
+Adataflow
+R10
+R11
+R12
+DEx4 work 3 add 0 22 QBH0BS98Ki=C]dzOZd3mM3
+!i122 17
+l16
+L12 11
+VTW8AUzVmnnjDonA8`OcbD3
+!s100 T:7j1JzHYFc0fL3gQa8Im2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eadd4
+R9
+R10
+R11
+R12
+!i122 17
+R13
+Z23 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Add4.vhd
+Z24 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Add4.vhd
+l0
+L5 1
+VFMVJM5;ZoHzAUZ>7f6jfG2
+!s100 :0TojLhcFlOFme43n4oWh2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R10
+R11
+R12
+DEx4 work 4 add4 0 22 FMVJM5;ZoHzAUZ>7f6jfG2
+!i122 17
+l14
+L10 8
+VPn<GGYGGUCfk[X:k]kL]01
+!s100 8e5=038<1ja8O[WzQ@Ao<3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eadder_32bits
+R9
+R10
+R11
+R12
+!i122 17
+R13
+Z25 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Adder_32bits.vhd
+Z26 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Adder_32bits.vhd
+l0
+L5 1
+V?eE^f3KO@66DA^k2CUAl]1
+!s100 KbgJh[UGhL7MmTPj[B^mQ2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R10
+R11
+R12
+DEx4 work 12 adder_32bits 0 22 ?eE^f3KO@66DA^k2CUAl]1
+!i122 17
+l12
+Z27 L11 4
+V[dXH6V=4zel8Y7aTKD2<D3
+!s100 6fTnJFMiF;A`=GKF3TbSb2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eaddu
+R9
+R10
+R11
+R12
+!i122 17
+R13
+Z28 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ADDU.vhd
+Z29 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ADDU.vhd
+l0
+L5 1
+Vka]^]KX8?1V_bg>hoMKdm1
+!s100 C]b8A^@]P`CHPij9:a2in3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R10
+R11
+R12
+DEx4 work 4 addu 0 22 ka]^]KX8?1V_bg>hoMKdm1
+!i122 17
+l12
+R27
+V]aH:V3I;BlR1J[>nKlFEz1
+!s100 OK3KW@kHoeNoFShPG[>SD0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Ealu
+R9
+R11
+R12
+!i122 17
+R13
+Z30 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ALU.vhd
+Z31 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ALU.vhd
+l0
+L4 1
+V?O2IOz>6nYNKPXC3_Z^;f3
+!s100 T2`0B3k>]3b[X[^nTlYQo3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Astructural
+R11
+R12
+DEx4 work 3 alu 0 22 ?O2IOz>6nYNKPXC3_Z^;f3
+!i122 17
+l143
+L14 251
+VU1gT=EmXZlUM^70SF]EVQ0
+!s100 OOmlihA7^2@jXLN=P5YUb0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eandg
+R9
+R11
+R12
+!i122 17
+R13
+Z32 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/AndG.vhd
+Z33 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/AndG.vhd
+l0
+L4 1
+VTTh^N;HZz9@6CA`E`0@9A0
+!s100 7@RZN7JD830bI1h`N7Bl53
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 4 andg 0 22 TTh^N;HZz9@6CA`E`0@9A0
+!i122 17
+l11
+L10 4
+VKNS0NP>Y[S22GLEA?HX0j0
+!s100 3ZLU_o7C7jB65gO1]AMY_3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eandg2
+R9
+R11
+R12
+!i122 17
+R13
+Z34 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/andg2.vhd
+Z35 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/andg2.vhd
+l0
+Z36 L23 1
+VQf>?20ho>9XHGTg4:jo373
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 5 andg2 0 22 Qf>?20ho>9XHGTg4:jo373
+!i122 17
+l32
+L31 6
+VHdBJDB9no8cjMZ2eVYWH;1
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Ebarrel_shifter
+R9
+R11
+R12
+!i122 17
+R13
+Z37 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Barrel_Shifter.vhd
+Z38 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/Barrel_Shifter.vhd
+l0
+L4 1
+VSRXg?3K78L9iJMD1ImLkA0
+!s100 OG6M=b?VUbBd`YTbge];Y2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 14 barrel_shifter 0 22 SRXg?3K78L9iJMD1ImLkA0
+!i122 17
+l26
+L13 53
+V9]<15caz10D0F>f^j94n71
+!s100 ^a;0o3Bl;]=<_j@MeTK^62
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Ebranchchecker
+R9
+R10
+R11
+R12
+!i122 17
+R13
+Z39 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/BranchChecker.vhd
+Z40 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/BranchChecker.vhd
+l0
+L5 1
+VbSfD7QP=85:;LG^WbXncl1
+!s100 8XbzGl2`e?nm6`E`[FRGV3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R10
+R11
+R12
+DEx4 work 13 branchchecker 0 22 bSfD7QP=85:;LG^WbXncl1
+!i122 17
+l13
+L12 5
+V@UfM?XO9fD=Li>c63_;@51
+!s100 @8SF[2jgP8[P?b5I`A:mK2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Pbus_array
+R11
+R12
+!i122 17
+R9
+R13
+8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/bus_array.vhd
+F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/bus_array.vhd
+l0
+L4 3
+V]bLML9W:R]_46RA>`g4WV2
+!s100 cGII47[aSEJikHB58KiJS0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Econtrolunit
+R9
+R11
+R12
+!i122 17
+R13
+Z41 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit.vhd
+Z42 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit.vhd
+l0
+L4 1
+VCg@@N^i6[g3_8bh44MeoX3
+!s100 ?NihAM9FB6bTUzhNfID=d2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Abehavioral
+R11
+R12
+DEx4 work 11 controlunit 0 22 Cg@@N^i6[g3_8bh44MeoX3
+!i122 17
+l24
+L23 129
+VH?Bd[CmDm^P?6W@F7l:j70
+!s100 mSJbO9Wfd:]SDMIC_0C;?1
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Edecoder5x32
+R9
+Z43 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+R10
+R11
+R12
+!i122 17
+R13
+Z44 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/decoder5x32.vhd
+Z45 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/decoder5x32.vhd
+l0
+L6 1
+VRhcoiVb;Nn<8Y9EGXj_TR3
+!s100 Ai0`hmY=SoLiCLYEjlHhb3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R43
+R10
+R11
+R12
+DEx4 work 11 decoder5x32 0 22 RhcoiVb;Nn<8Y9EGXj_TR3
+!i122 17
+l13
+L12 43
+Vk6iKWIm?cAFKTo0]^K<Rl1
+!s100 ]oXQSPzEOab^T^7039LzZ2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Edffg
+R9
+R11
+R12
+!i122 17
+R13
+Z46 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/dffg.vhd
+Z47 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/dffg.vhd
+l0
+R36
+VaBn<3_7oIgIleFniVim733
+!s100 FJQDe;FGDG0KnNV;j4DaY2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Amixed
+R11
+R12
+DEx4 work 4 dffg 0 22 aBn<3_7oIgIleFniVim733
+!i122 17
+l37
+L33 29
+VS_P?KDWPHzz@YT_fABo?Z0
+!s100 GR5ff]ZD1Yiz`>ZFVE>Hg1
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eforwardingunit
+Z48 w1699821764
+R11
+R12
+!i122 17
+R13
+Z49 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ForwardingUnit.vhd
+Z50 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ForwardingUnit.vhd
+l0
+L4 1
+Vk9z500NBWX6hZ_>PL5Kfd1
+!s100 JdNW?I:Dbl9kmXV^PNHN?0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Abehavioral
+R11
+R12
+DEx4 work 14 forwardingunit 0 22 k9z500NBWX6hZ_>PL5Kfd1
+!i122 17
+l14
+L13 16
+V<=4lmKhGWH=Z7<bWUDYnX0
+!s100 bHV5<IHo0]klzBZ>oZkj>2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eforwardingunit_tb
+Z51 w1699829581
+R11
+R12
+!i122 11
+R3
+Z52 8/home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ForwardUnit_tb.vhd
+Z53 F/home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ForwardUnit_tb.vhd
+l0
+L4 1
+VFgGXNhZUf7Gn8bD1FmOXQ1
+!s100 WVjEhEQU12K<l]l@3IGS90
+R16
+32
+Z54 !s110 1699829584
+!i10b 1
+Z55 !s108 1699829584.000000
+Z56 !s90 -reportprogress|300|-work|work|/home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ForwardUnit_tb.vhd|
+Z57 !s107 /home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/ForwardUnit_tb.vhd|
+!i113 0
+R21
+R22
+Atestbench
+R11
+R12
+DEx4 work 17 forwardingunit_tb 0 22 FgGXNhZUf7Gn8bD1FmOXQ1
+!i122 11
+l17
+L7 44
+Vi2KHVVln_BhR8S6>5VZ6h0
+!s100 Zl4GMM;e`ZUORcV5z[Zj33
+R16
+32
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 0
+R21
+R22
+Ehazarddetector
+Z58 w1699821298
+R11
+R12
+!i122 17
+R13
+Z59 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/HazardDetector.vhd
+Z60 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/HazardDetector.vhd
+l0
+L4 1
+V6`;TBQD=PR;Q@<gAEZKLA0
+!s100 R4BDDR=d6Zn889L8zN5Kj2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Abehavioral
+R11
+R12
+DEx4 work 14 hazarddetector 0 22 6`;TBQD=PR;Q@<gAEZKLA0
+!i122 17
+l20
+L19 17
+Vk[QEbR83[<gAjWEb58:DE3
+!s100 3RWk;J^jmL5QPDMg6`>nn3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Ehazarddetector_tb
+Z61 w1699829847
+R11
+R12
+!i122 15
+R3
+Z62 8/home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/HazardDetector_tb.vhd
+Z63 F/home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/HazardDetector_tb.vhd
+l0
+L4 1
+VBc4kP=D=58J<;OFh>P3<B0
+!s100 ;CJj9NEeR44aPmYhP@G;51
+R16
+32
+Z64 !s110 1699829851
+!i10b 1
+Z65 !s108 1699829851.000000
+Z66 !s90 -reportprogress|300|-work|work|/home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/HazardDetector_tb.vhd|
+Z67 !s107 /home/connor66/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/HazardDetector_tb.vhd|
+!i113 0
+R21
+R22
+Atestbench
+R11
+R12
+DEx4 work 17 hazarddetector_tb 0 22 Bc4kP=D=58J<;OFh>P3<B0
+!i122 15
+l19
+L7 57
+V6f^>1kH9^b;?d^F4;T8oM3
+!s100 c=YD]:3?=o48gG?BRZ^5H2
+R16
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 0
+R21
+R22
+Einvg
+R9
+R11
+R12
+!i122 17
+R13
+Z68 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/invg.vhd
+Z69 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/invg.vhd
+l0
+R36
+V]eXOe]3lZ=l7S8@9?:L9T1
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 4 invg 0 22 ]eXOe]3lZ=l7S8@9?:L9T1
+!i122 17
+l31
+L30 6
+Ve`;fA[BQP?1Y52gl`N_a?3
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Elui
+R9
+R11
+R12
+!i122 17
+R13
+Z70 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/LUI.vhd
+Z71 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/LUI.vhd
+l0
+L4 1
+VdhBacb5CFfHC?17<86zZP3
+!s100 fe6T@67<LM2gS]eViCG1=1
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 3 lui 0 22 dhBacb5CFfHC?17<86zZP3
+!i122 17
+l10
+L9 4
+V=V=]=BhcZ[2=mQnk;:nXB3
+!s100 YRE:U:P7]:gfk]g3Q`A;Y0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Emem
+Z72 w1697628338
+Z73 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R11
+R12
+!i122 17
+R13
+Z74 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mem.vhd
+Z75 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/mem.vhd
+l0
+L8 1
+VnYK75YT_DT9[l?ZQ16TI^1
+!s100 GF_U?1mjKdlzTC==@Eoi@2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Artl
+R73
+R11
+R12
+DEx4 work 3 mem 0 22 nYK75YT_DT9[l?ZQ16TI^1
+!i122 17
+l37
+L27 24
+V0P842]PUf?YimUc_z4@5J0
+!s100 h2oZ:n@5VDnM^B7>cA]W22
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Emips_processor
+Z76 w1700004216
+Z77 DPx4 work 10 mips_types 0 22 hZBUW]HhDM2h1hJhif=>>3
+R11
+R12
+!i122 26
+R13
+Z78 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_Processor.vhd
+Z79 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_Processor.vhd
+l0
+R36
+V?2Ue4BWL?G_8]`lN5U>AW1
+!s100 lCRi]V>h[1VjnjUP_8`>K1
+R16
+32
+Z80 !s110 1700004236
+!i10b 1
+Z81 !s108 1700004235.000000
+Z82 !s90 -reportprogress|300|-work|work|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_Processor.vhd|
+Z83 !s107 /home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_Processor.vhd|
+!i113 0
+R21
+R22
+Astructure
+R77
+R11
+R12
+Z84 DEx4 work 14 mips_processor 0 22 ?2Ue4BWL?G_8]`lN5U>AW1
+!i122 26
+l266
+L35 528
+ViGU^bkKlkjlPeKBhbJ2VA1
+!s100 ]1^oYMg4_6`d9m5_Pm:D53
+R16
+32
+R80
+!i10b 1
+R81
+R82
+R83
+!i113 0
+R21
+R22
+Pmips_types
+R11
+R12
+!i122 18
+Z85 w1664273871
+R13
+Z86 8/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_types.vhd
+Z87 F/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_types.vhd
+l0
+L15 13
+VhZBUW]HhDM2h1hJhif=>>3
+!s100 Zhic[8Ck_NUcnioRmZLWb2
+R16
+32
+Z88 !s110 1700004068
+!i10b 1
+Z89 !s108 1700004068.000000
+Z90 !s90 -reportprogress|300|-work|work|/home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_types.vhd|
+Z91 !s107 /home/scurlock/CprE381/Proj2/HW/cpre381-toolflow/internal/boilerplate_src/TopLevel/MIPS_types.vhd|
+!i113 0
+R21
+R22
+Bbody
+R77
+R11
+R12
+!i122 18
+l0
+L29 3
+V9iY8fCz4eYFUlAcKE=Z0C0
+!s100 ;m9aHiUa@zM37M9gRzA3:0
+R16
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 0
+R21
+R22

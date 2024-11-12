@@ -1,0 +1,406 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+Z2 !s12c _opt
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+!s12c _opt1
+R1
+R2
+R1
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/home/scurlock/CprE381/Lab1
+T_opt
+!s110 1694014154
+V:K2iPUl]kLR7E7n?A^=A:2
+Z4 04 11 9 work tb_mux2t1_n testbench 1
+=1-7486e228abe7-64f89aca-d6874-18d0
+R1
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2023.2_2;77
+R3
+T_opt2
+!s110 1694014225
+V611aeOol?X2oPQGjhU2043
+R4
+=1-7486e228abe7-64f89b11-458e8-198e
+R1
+R5
+R6
+o-quiet -auto_acc_if_foreign -work work +acc
+R7
+n@_opt2
+R8
+Eandg2
+Z9 w1575899276
+Z10 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z11 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 12
+Z12 d/home/scurlock/CprE381/Lab1/Mux
+Z13 8/home/scurlock/CprE381/Lab1/Mux/andg2.vhd
+Z14 F/home/scurlock/CprE381/Lab1/Mux/andg2.vhd
+l0
+Z15 L23 1
+VQf>?20ho>9XHGTg4:jo373
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+Z16 OL;C;2023.2_2;77
+32
+Z17 !s110 1694014137
+!i10b 1
+Z18 !s108 1694014137.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/scurlock/CprE381/Lab1/Mux/mux2t1_N.vhd|/home/scurlock/CprE381/Lab1/Mux/tbmux2t1_N.vhd|/home/scurlock/CprE381/Lab1/Mux/xorg2.vhd|/home/scurlock/CprE381/Lab1/Mux/andg2.vhd|/home/scurlock/CprE381/Lab1/Mux/invg.vhd|
+Z20 !s107 /home/scurlock/CprE381/Lab1/Mux/invg.vhd|/home/scurlock/CprE381/Lab1/Mux/andg2.vhd|/home/scurlock/CprE381/Lab1/Mux/xorg2.vhd|/home/scurlock/CprE381/Lab1/Mux/tbmux2t1_N.vhd|/home/scurlock/CprE381/Lab1/Mux/mux2t1_N.vhd|
+!i113 0
+Z21 o-work work
+Z22 tExplicit 1 CvgOpt 0
+Adataflow
+R10
+R11
+DEx4 work 5 andg2 0 22 Qf>?20ho>9XHGTg4:jo373
+!i122 12
+l32
+Z23 L31 6
+VHdBJDB9no8cjMZ2eVYWH;1
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Einvg
+R9
+R10
+R11
+!i122 12
+R12
+Z24 8/home/scurlock/CprE381/Lab1/Mux/invg.vhd
+Z25 F/home/scurlock/CprE381/Lab1/Mux/invg.vhd
+l0
+R15
+V]eXOe]3lZ=l7S8@9?:L9T1
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R10
+R11
+DEx4 work 4 invg 0 22 ]eXOe]3lZ=l7S8@9?:L9T1
+!i122 12
+l31
+L30 6
+Ve`;fA[BQP?1Y52gl`N_a?3
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Emux2t1
+Z26 w1693411157
+R10
+R11
+!i122 7
+R12
+Z27 8/home/scurlock/CprE381/Lab1/Mux/mux2t1.vhd
+Z28 F/home/scurlock/CprE381/Lab1/Mux/mux2t1.vhd
+l0
+L16 1
+VNIIJkSWIfCl<TjSaJMO0I2
+!s100 jFzbCEaCXeH>0QL24Z^1b2
+R16
+32
+Z29 !s110 1693412118
+!i10b 1
+Z30 !s108 1693412118.000000
+Z31 !s90 -reportprogress|300|-work|work|/home/scurlock/CprE381/Lab1/Mux/invg.vhd|/home/scurlock/CprE381/Lab1/Mux/andg2.vhd|/home/scurlock/CprE381/Lab1/Mux/mux2t1.vhd|/home/scurlock/CprE381/Lab1/Mux/org2.vhd|/home/scurlock/CprE381/Lab1/Mux/tbmux2t1.vhd|/home/scurlock/CprE381/Lab1/Mux/xorg2.vhd|
+Z32 !s107 /home/scurlock/CprE381/Lab1/Mux/xorg2.vhd|/home/scurlock/CprE381/Lab1/Mux/tbmux2t1.vhd|/home/scurlock/CprE381/Lab1/Mux/org2.vhd|/home/scurlock/CprE381/Lab1/Mux/mux2t1.vhd|/home/scurlock/CprE381/Lab1/Mux/andg2.vhd|/home/scurlock/CprE381/Lab1/Mux/invg.vhd|
+!i113 0
+R21
+R22
+Adataflow
+R10
+R11
+DEx4 work 6 mux2t1 0 22 NIIJkSWIfCl<TjSaJMO0I2
+!i122 7
+l53
+L25 56
+VdGJKVZ;GiWbY66ilIk@iX1
+!s100 dWze<CKISL];Jh2I?aR?S1
+R16
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R21
+R22
+Emux2t1_n
+Z33 w1694011969
+R10
+R11
+!i122 12
+R12
+Z34 8/home/scurlock/CprE381/Lab1/Mux/mux2t1_N.vhd
+Z35 F/home/scurlock/CprE381/Lab1/Mux/mux2t1_N.vhd
+l0
+L21 1
+VJPRV=bK_c98FQWQc:8I>22
+!s100 f@JW6YnDL;zoDFK?hK;^L3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Astructural
+R10
+R11
+Z36 DEx4 work 8 mux2t1_n 0 22 JPRV=bK_c98FQWQc:8I>22
+!i122 12
+l39
+L30 21
+Vghh^edzIST4EAi324fiR[1
+!s100 `>^]M24jDEZ=7JFVDOOTo3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Emux2t1_tb
+Z37 w1693412101
+Z38 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+R10
+R11
+!i122 7
+R12
+Z39 8/home/scurlock/CprE381/Lab1/Mux/tbmux2t1.vhd
+Z40 F/home/scurlock/CprE381/Lab1/Mux/tbmux2t1.vhd
+l0
+L10 1
+VDZQl5568`M>:5RB:X]HVV2
+!s100 QZ@SJA[X:PcH;h8B4z]Ce2
+R16
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R21
+R22
+Abehavior
+R38
+R10
+R11
+DEx4 work 9 mux2t1_tb 0 22 DZQl5568`M>:5RB:X]HVV2
+!i122 7
+l29
+L13 73
+V<20R1On5?:>4J2c9k3mSQ1
+!s100 f<kRd53AN[Ml]`ATN5BF82
+R16
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R21
+R22
+Eorg2
+R9
+R10
+R11
+!i122 7
+R12
+Z41 8/home/scurlock/CprE381/Lab1/Mux/org2.vhd
+Z42 F/home/scurlock/CprE381/Lab1/Mux/org2.vhd
+l0
+R15
+VhOiEZ0HVFKUfoceE;g4CN1
+!s100 hJAZ>EB8bm_e<^5IFaP9e1
+R16
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R21
+R22
+Adataflow
+R10
+R11
+DEx4 work 4 org2 0 22 hOiEZ0HVFKUfoceE;g4CN1
+!i122 7
+l32
+R23
+VeLGLG944lJMT]Df59N0F92
+!s100 nma>Pa=mMW`KzzjeW=1[d1
+R16
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R21
+R22
+Etb_mux2t1_n
+Z43 w1694014057
+Z44 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R10
+R11
+!i122 12
+R12
+Z45 8/home/scurlock/CprE381/Lab1/Mux/tbmux2t1_N.vhd
+Z46 F/home/scurlock/CprE381/Lab1/Mux/tbmux2t1_N.vhd
+l0
+L5 1
+V]8eA_iGHRE<A:R6:;X:Hz2
+!s100 CR_RI`hVznHEHh:`4NO;=0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Atestbench
+R36
+R44
+R10
+R11
+DEx4 work 11 tb_mux2t1_n 0 22 ]8eA_iGHRE<A:R6:;X:Hz2
+!i122 12
+l16
+L8 37
+VDYlcSQmzl;QFXVS:l5UFW2
+!s100 >oab[gNLbVm7RYDYFU34V2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Etbmux2t1_n
+w1694012379
+R38
+R10
+R11
+!i122 9
+R12
+R45
+R46
+l0
+L5 1
+Vm<UV1:<P887zZiOR5KaJ91
+!s100 DTk@;acD:d805CX`8K3UJ0
+R16
+32
+!s110 1694013081
+!i10b 1
+!s108 1694013081.000000
+!s90 -reportprogress|300|-work|work|/home/scurlock/CprE381/Lab1/Mux/mux2t1_N.vhd|/home/scurlock/CprE381/Lab1/Mux/tbmux2t1_N.vhd|
+!s107 /home/scurlock/CprE381/Lab1/Mux/tbmux2t1_N.vhd|/home/scurlock/CprE381/Lab1/Mux/mux2t1_N.vhd|
+!i113 0
+R21
+R22
+Exorg2
+R9
+R10
+R11
+!i122 12
+R12
+Z47 8/home/scurlock/CprE381/Lab1/Mux/xorg2.vhd
+Z48 F/home/scurlock/CprE381/Lab1/Mux/xorg2.vhd
+l0
+R15
+VA]ncWhoC:fhLS`F>c9^ag2
+!s100 zGkHVGJ]HQ5RboN2N>KzN1
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Adataflow
+R10
+R11
+DEx4 work 5 xorg2 0 22 A]ncWhoC:fhLS`F>c9^ag2
+!i122 12
+l32
+R23
+VV`;B_39=:h3bCoQNhV;bn0
+!s100 2<f]d3XziROLh_[:_6mNg2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22

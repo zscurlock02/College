@@ -1,0 +1,799 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2023.2_2 2023.06, Jun  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath
+T_opt
+!s110 1695782901
+VEP<9UMO1E]H_eD]ZCF9<@2
+04 15 9 work mipsdatapath_tb testbench 1
+=1-0050569baa19-651397f5-6082a-83a5
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2023.2_2;77
+Eandg2
+Z2 w1575899276
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z5 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/andg2.vhd
+Z6 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/andg2.vhd
+l0
+Z7 L23 1
+VQf>?20ho>9XHGTg4:jo373
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+Z8 OL;C;2023.2_2;77
+32
+Z9 !s110 1695782895
+!i10b 1
+Z10 !s108 1695782894.000000
+Z11 !s90 -reportprogress|300|-work|work|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/32x1mux.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/andg2.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/busarray.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/decoder5x32.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/dffg.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/MIPSDatapath_tb.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1_32bit.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1_N.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitAddSub.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/onescomp.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/org2.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/RegisterFile.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/StructuralAdder.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/xorg2.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/invg.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/MIPSDatapath.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitReg.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitRippleCarryAdder.vhd|
+Z12 !s107 /home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitRippleCarryAdder.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitReg.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/MIPSDatapath.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/invg.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/xorg2.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/StructuralAdder.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/RegisterFile.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/org2.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/onescomp.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitAddSub.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1_N.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1_32bit.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/MIPSDatapath_tb.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/dffg.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/decoder5x32.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/busarray.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/andg2.vhd|/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/32x1mux.vhd|
+!i113 0
+Z13 o-work work
+Z14 tExplicit 1 CvgOpt 0
+Adataflow
+R3
+R4
+DEx4 work 5 andg2 0 22 Qf>?20ho>9XHGTg4:jo373
+!i122 1
+l32
+Z15 L31 6
+VHdBJDB9no8cjMZ2eVYWH;1
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Pbus_array
+R3
+R4
+!i122 1
+w1695227042
+R1
+8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/busarray.vhd
+F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/busarray.vhd
+l0
+L4 3
+V2`OAMHIBniP[ZBAZeVo:Y3
+!s100 aYJlQ^[B9g]>Ea=m=M1Q70
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Edecoder5to32
+Z16 w1695748692
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z18 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+R3
+R4
+!i122 1
+R1
+Z19 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/decoder5x32.vhd
+Z20 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/decoder5x32.vhd
+l0
+L6 1
+VmiVoibVm1^nZg3kTOG[JG3
+!s100 PMHz8il7F6O[2IZY53QjS0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Adataflow
+R17
+R18
+R3
+R4
+DEx4 work 12 decoder5to32 0 22 miVoibVm1^nZg3kTOG[JG3
+!i122 1
+l16
+L15 43
+VG_>lolPlcK?z_>WDNXIPn1
+!s100 R4X?SLZl]dHng67n6D1bO1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Edffg
+Z21 w1577987095
+R3
+R4
+!i122 1
+R1
+Z22 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/dffg.vhd
+Z23 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/dffg.vhd
+l0
+R7
+VaBn<3_7oIgIleFniVim733
+!s100 FJQDe;FGDG0KnNV;j4DaY2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Amixed
+R3
+R4
+DEx4 work 4 dffg 0 22 aBn<3_7oIgIleFniVim733
+!i122 1
+l37
+L33 29
+VS_P?KDWPHzz@YT_fABo?Z0
+!s100 GR5ff]ZD1Yiz`>ZFVE>Hg1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Einvg
+R2
+R3
+R4
+!i122 1
+R1
+Z24 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/invg.vhd
+Z25 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/invg.vhd
+l0
+R7
+V]eXOe]3lZ=l7S8@9?:L9T1
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 4 invg 0 22 ]eXOe]3lZ=l7S8@9?:L9T1
+!i122 1
+l31
+L30 6
+Ve`;fA[BQP?1Y52gl`N_a?3
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Emipsdatapath
+Z26 w1695781539
+Z27 DPx4 work 9 bus_array 0 22 2`OAMHIBniP[ZBAZeVo:Y3
+R3
+R4
+!i122 1
+R1
+Z28 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/MIPSDatapath.vhd
+Z29 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/MIPSDatapath.vhd
+l0
+L5 1
+VnFdkMkYR:n0S1=BBFme8n2
+!s100 L=^R3aUOD3H7aAT>LMZUT2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astructural
+R27
+R3
+R4
+DEx4 work 12 mipsdatapath 0 22 nFdkMkYR:n0S1=BBFme8n2
+!i122 1
+l53
+L18 64
+VgleBS9`kb5OQaNAmj;cI<0
+!s100 ]gn8dR@<MdeJHXUjn6XiN0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Emipsdatapath_tb
+Z30 w1695781127
+R27
+R3
+R4
+!i122 1
+R1
+Z31 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/MIPSDatapath_tb.vhd
+Z32 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/MIPSDatapath_tb.vhd
+l0
+L5 1
+V=Bn@XW8gOC;NFeZh1IEYn1
+!s100 6>AzWoV=RGjA2niCQ]fTB3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Atestbench
+R27
+R3
+R4
+DEx4 work 15 mipsdatapath_tb 0 22 =Bn@XW8gOC;NFeZh1IEYn1
+!i122 1
+l38
+L9 198
+Vfj8BGXEAB[@59L4DNRgV33
+!s100 2e1457:bC7F>JWSldRF:63
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Emux2t1
+Z33 w1693411157
+R3
+R4
+!i122 1
+R1
+Z34 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1.vhd
+Z35 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1.vhd
+l0
+L16 1
+VNIIJkSWIfCl<TjSaJMO0I2
+!s100 jFzbCEaCXeH>0QL24Z^1b2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 6 mux2t1 0 22 NIIJkSWIfCl<TjSaJMO0I2
+!i122 1
+l53
+L25 56
+VdGJKVZ;GiWbY66ilIk@iX1
+!s100 dWze<CKISL];Jh2I?aR?S1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Emux2t1_32bit
+Z36 w1695779407
+R3
+R4
+!i122 1
+R1
+Z37 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1_32bit.vhd
+Z38 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1_32bit.vhd
+l0
+L4 1
+VO5eing[Cc0bYZV7:XEhe=2
+!s100 ofzTD]IPlhm7=3m8NJ=Iz3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 12 mux2t1_32bit 0 22 O5eing[Cc0bYZV7:XEhe=2
+!i122 1
+l12
+L11 11
+VaPReoR9Oi@@H>^DBnFDcO2
+!s100 GTVd0n2BANkBfOeV1ZGWG2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Emux2t1_n
+Z39 w1694011969
+R3
+R4
+!i122 1
+R1
+Z40 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1_N.vhd
+Z41 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/mux2t1_N.vhd
+l0
+L21 1
+VJPRV=bK_c98FQWQc:8I>22
+!s100 f@JW6YnDL;zoDFK?hK;^L3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 8 mux2t1_n 0 22 JPRV=bK_c98FQWQc:8I>22
+!i122 1
+l39
+L30 21
+Vghh^edzIST4EAi324fiR[1
+!s100 `>^]M24jDEZ=7JFVDOOTo3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Emux32x1
+Z42 w1695782380
+R27
+Z43 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R3
+R4
+!i122 1
+R1
+Z44 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/32x1mux.vhd
+Z45 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/32x1mux.vhd
+l0
+L6 1
+VJ7An20Hen1Fj@X89[B<z71
+!s100 X`C83I9Zm0>e=AIe3U79h0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Adataflow
+R27
+R43
+R3
+R4
+DEx4 work 7 mux32x1 0 22 J7An20Hen1Fj@X89[B<z71
+!i122 1
+l14
+L13 4
+VK:TLOWSODfFk5TjPeG^AT0
+!s100 dak=UWzP:=zK;1XWogZ?71
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Enbitaddsub
+Z46 w1695779087
+R3
+R4
+!i122 1
+R1
+Z47 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitAddSub.vhd
+Z48 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitAddSub.vhd
+l0
+L4 1
+VI5zmfA@1WG<3SC6Ecg42F1
+!s100 4coR[MAd>=bf_;LCYkIS12
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 10 nbitaddsub 0 22 I5zmfA@1WG<3SC6Ecg42F1
+!i122 1
+l42
+L12 70
+VPn8KK:7hl;M=;I6F:UdT13
+!s100 J>V5P[<a28^@5R7@fU1Zo1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Enbitreg
+Z49 w1695222257
+R3
+R4
+!i122 1
+R1
+Z50 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitReg.vhd
+Z51 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitReg.vhd
+l0
+L4 1
+VV3ToG7k6MVAcd:JFJ^5Ch3
+!s100 `KUV;djam`6U=mDl^A6c_3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 7 nbitreg 0 22 V3ToG7k6MVAcd:JFJ^5Ch3
+!i122 1
+l28
+L16 22
+V<T><nA]R95g748T46XTC90
+!s100 gjm^=:n9AcYHdDN^_GgZ]0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Enbitripplecarryadder
+Z52 w1694207365
+R3
+R4
+!i122 1
+R1
+Z53 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitRippleCarryAdder.vhd
+Z54 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/NBitRippleCarryAdder.vhd
+l0
+L4 1
+VLQRRUoK43hPn<fgmPXo2P1
+!s100 eoFb^;]BzAUkc6nk=5dMT1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 20 nbitripplecarryadder 0 22 LQRRUoK43hPn<fgmPXo2P1
+!i122 1
+l28
+L16 25
+Voc2VlKNWW0DzSdJUdXfAR2
+!s100 dVNBN03VbkPg_KhR40C_U0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eonescomp
+Z55 w1694016317
+R3
+R4
+!i122 1
+R1
+Z56 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/onescomp.vhd
+Z57 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/onescomp.vhd
+l0
+L4 1
+V^i2k2z27X5zW3fz:Y6^iH0
+!s100 gzfN5NQ_d7l_`FWNJJG?F3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astructure
+R3
+R4
+DEx4 work 8 onescomp 0 22 ^i2k2z27X5zW3fz:Y6^iH0
+!i122 1
+l18
+L11 16
+V>;LgiNo>XG@lQ3COc?8[T2
+!s100 n7=^:MM]S>L5HElbn@hdn2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eorg2
+R2
+R3
+R4
+!i122 1
+R1
+Z58 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/org2.vhd
+Z59 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/org2.vhd
+l0
+R7
+VhOiEZ0HVFKUfoceE;g4CN1
+!s100 hJAZ>EB8bm_e<^5IFaP9e1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 4 org2 0 22 hOiEZ0HVFKUfoceE;g4CN1
+!i122 1
+l32
+R15
+VeLGLG944lJMT]Df59N0F92
+!s100 nma>Pa=mMW`KzzjeW=1[d1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eregisterfile
+Z60 w1695749257
+R27
+R3
+R4
+!i122 1
+R1
+Z61 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/RegisterFile.vhd
+Z62 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/RegisterFile.vhd
+l0
+L5 1
+V^8^BS:k7H93Z3cEbzmoO`2
+!s100 9LIUa=FA?km7mGaF@2=hk3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astructural
+R27
+R3
+R4
+DEx4 work 12 registerfile 0 22 ^8^BS:k7H93Z3cEbzmoO`2
+!i122 1
+l46
+L20 63
+VHIam0N4I[11[WW>IE9`MB3
+!s100 ;9[m<lA@Cn@`8BYl1TSKz2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Estructuraladder
+Z63 w1694207967
+R3
+R4
+!i122 1
+R1
+Z64 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/StructuralAdder.vhd
+Z65 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/StructuralAdder.vhd
+l0
+L4 1
+VRU4bVOLOP@EG4oP5bncD73
+!s100 ImzaSSN7ozW5>@H7Je>DV1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astructural
+R3
+R4
+DEx4 work 15 structuraladder 0 22 RU4bVOLOP@EG4oP5bncD73
+!i122 1
+l45
+L14 64
+V@^znK7aB5eOcQe2TH[Foe2
+!s100 z2=gd5P<NjHA2C_VRPo_@3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Exorg2
+R2
+R3
+R4
+!i122 1
+R1
+Z66 8/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/xorg2.vhd
+Z67 F/home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/xorg2.vhd
+l0
+R7
+VA]ncWhoC:fhLS`F>c9^ag2
+!s100 zGkHVGJ]HQ5RboN2N>KzN1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Adataflow
+R3
+R4
+DEx4 work 5 xorg2 0 22 A]ncWhoC:fhLS`F>c9^ag2
+!i122 1
+l32
+R15
+VV`;B_39=:h3bCoQNhV;bn0
+!s100 2<f]d3XziROLh_[:_6mNg2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

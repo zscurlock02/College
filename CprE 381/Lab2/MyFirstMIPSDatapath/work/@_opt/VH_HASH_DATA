@@ -1,0 +1,119 @@
+[N
+12
+1
+52 /home/scurlock/CprE381/Lab2/MyFirstMIPSDatapath/work
+6
+8 onescomp
+8
+8 mux2t1_n
+4
+1 N
+9
+10 nbitaddsub
+5
+20 nbitripplecarryadder
+7
+9 structure
+10
+15 mipsdatapath_tb
+3
+10 structural
+2
+7 nbitreg
+12
+9 gCLK_HPER
+11
+9 testbench
+]
+[G
+1
+8
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+9
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+5
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+10
+11
+1
+12
+0
+0
+0
+0
+8 8
+-128
+-16
+-6
+2
+0
+0
+0
+0
+0
+0
+]
+[G
+1
+6
+7
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]

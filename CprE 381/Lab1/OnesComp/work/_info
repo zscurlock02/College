@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/scurlock/CprE381/Lab1/OnesComp
+T_opt
+!s110 1694017350
+V<6W=iA:g7=^M@QN9Y0WTX3
+04 11 9 work onescomp_tb testbench 1
+=1-7486e228abe7-64f8a745-daeff-210e
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2023.2_2;77
+Einvg
+Z2 w1575899276
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 12
+R1
+Z5 8/home/scurlock/CprE381/Lab1/OnesComp/invg.vhd
+Z6 F/home/scurlock/CprE381/Lab1/OnesComp/invg.vhd
+l0
+L23 1
+V]eXOe]3lZ=l7S8@9?:L9T1
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+Z7 OL;C;2023.2_2;77
+32
+Z8 !s110 1694017338
+!i10b 1
+Z9 !s108 1694017338.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/scurlock/CprE381/Lab1/OnesComp/onescomp_tb.vhd|/home/scurlock/CprE381/Lab1/OnesComp/onescomp.vhd|/home/scurlock/CprE381/Lab1/OnesComp/invg.vhd|
+Z11 !s107 /home/scurlock/CprE381/Lab1/OnesComp/invg.vhd|/home/scurlock/CprE381/Lab1/OnesComp/onescomp.vhd|/home/scurlock/CprE381/Lab1/OnesComp/onescomp_tb.vhd|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Adataflow
+R3
+R4
+DEx4 work 4 invg 0 22 ]eXOe]3lZ=l7S8@9?:L9T1
+!i122 12
+l31
+L30 6
+Ve`;fA[BQP?1Y52gl`N_a?3
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eonescomp
+Z14 w1694016317
+R3
+R4
+!i122 12
+R1
+Z15 8/home/scurlock/CprE381/Lab1/OnesComp/onescomp.vhd
+Z16 F/home/scurlock/CprE381/Lab1/OnesComp/onescomp.vhd
+l0
+L4 1
+V^i2k2z27X5zW3fz:Y6^iH0
+!s100 gzfN5NQ_d7l_`FWNJJG?F3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Astructure
+R3
+R4
+Z17 DEx4 work 8 onescomp 0 22 ^i2k2z27X5zW3fz:Y6^iH0
+!i122 12
+l18
+L11 16
+V>;LgiNo>XG@lQ3COc?8[T2
+!s100 n7=^:MM]S>L5HElbn@hdn2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eonescomp_tb
+Z18 w1694017283
+R3
+R4
+!i122 12
+R1
+Z19 8/home/scurlock/CprE381/Lab1/OnesComp/onescomp_tb.vhd
+Z20 F/home/scurlock/CprE381/Lab1/OnesComp/onescomp_tb.vhd
+l0
+L4 1
+Vj6Mc`zHc`E_AhYgYe_<K<1
+!s100 VQ8D3D_lLbd:<9dREGPJ;1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Atestbench
+R17
+R3
+R4
+DEx4 work 11 onescomp_tb 0 22 j6Mc`zHc`E_AhYgYe_<K<1
+!i122 12
+l13
+L7 37
+V=h><MP]l@e[<F@^FfoUl@1
+!s100 0<S2lAIl2j^7R]I3W6WRT2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13

@@ -1,0 +1,6 @@
+bsdump: fat12ls-template.o
+	gcc -o fat12ls fat12ls-template.o
+bsdump-template.o: fat12ls-template.c
+	gcc -c fat12ls-template.c
+clean:
+	rm fat12ls fat12ls-template.o

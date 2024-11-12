@@ -1,0 +1,8 @@
+appserver-coarse: appserver-coarse.o Bank.o
+	gcc -o appserver-coarse -pthread appserver-coarse.o Bank.o
+appserver.o: appserver-coarse.c
+	gcc -c -pthread appserver-coarse.c
+Bank.o: Bank.c
+	gcc -c Bank.c
+clean:
+	rm appserver-coarse appserver-coarse.o Bank.o

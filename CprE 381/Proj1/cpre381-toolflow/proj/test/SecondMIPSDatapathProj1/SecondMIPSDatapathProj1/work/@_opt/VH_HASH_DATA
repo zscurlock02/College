@@ -1,0 +1,33 @@
+[N
+4
+2
+16 mipsdatapath2_tb
+1
+61 /home/connor66/CprE381/Lab2/Lab2/SecondMIPSDatapathProj1/work
+4
+9 gCLK_HPER
+3
+9 testbench
+]
+[G
+1
+2
+3
+1
+4
+0
+0
+0
+0
+8 8
+-128
+-16
+-6
+2
+0
+0
+0
+0
+0
+0
+]
