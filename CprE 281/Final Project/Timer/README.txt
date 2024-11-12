@@ -1,1 +1,0 @@
-Timer.bdf is the main BDF file.
