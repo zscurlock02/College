@@ -1,0 +1,70 @@
+stages:
+  - mavenbuild
+  - maventest
+  - mavenDeploy
+  - androidbuild
+  - androidtest
+
+
+maven-build:
+  stage: mavenbuild
+  tags:
+    - springboot_tag
+  script:
+    - cd Backend/Total-Knockout-Chess
+    - mvn package
+
+maven-test:
+   stage: maventest
+   tags:
+     - springboot_tag
+   script:
+     - cd Backend/Total-Knockout-Chess
+     - mvn test
+   artifacts:
+     paths:
+       - Backend/target/*.jar
+
+autoDeploy:
+  stage: mavenDeploy  
+  tags:
+  - springboot_tag
+  script:
+    - cd Backend/Total-Knockout-Chess
+    - mvn package
+    - sudo mv target/*.jar /target/web-demo.jar
+    - sudo systemctl stop system-web-demo
+    - sudo systemctl start system-web-demo
+  only:
+    refs:
+      - main # Only deploy when on main
+    changes:
+      - Backend/**/* 
+
+
+android-build:
+  image: gjandres/android-ci:latest
+  stage: androidbuild
+  tags:
+   - android_tag
+  before_script:
+    - export GRADLE_USER_HOME=`pwd`/.gradle
+    - chmod +x ./Frontend/T.K.O_Chess/gradlew
+  script:
+    - cd Frontend/T.K.O_Chess
+    - ./gradlew build
+  artifacts:
+    paths:
+    - Frontend/app/build/outputs/
+
+android-test:
+   image: gjandres/android-ci:latest
+   stage: androidtest
+   tags:
+    - android_tag
+   before_script:
+     - export GRADLE_USER_HOME=`pwd`/.gradle
+     - chmod +x ./Frontend/T.K.O_Chess/gradlew
+   script:
+     - cd Frontend/T.K.O_Chess
+     - ./gradlew test
