@@ -10,14 +10,18 @@
 
 #include "Timer.h"
 #include "lcd.h"
+#include "movement.h"
+#include "open_interface.h"
+#include "cyBot_uart.h"
+#include "cyBot_Scan.h"
 
 
-//int main (void) {
+int main (void) {
 //
-//	timer_init(); // Initialize Timer, needed before any LCD screen functions can be called
+	timer_init(); // Initialize Timer, needed before any LCD screen functions can be called
 //	              // and enables time functions (e.g. timer_waitMillis)
 //
-//	lcd_init();   // Initialize the LCD screen.  This also clears the screen.
+	lcd_init();   // Initialize the LCD screen.  This also clears the screen.
 //
 //	// Print "Hello, world" on the LCD
 //	lcd_puts("Hello, world");
@@ -29,4 +33,11 @@
 //       // NOTE: For time functions, see Timer.h
 //
 //	return 0;
-//}
+
+//    timer_init();
+//    lcd_init();
+    cyBOT_init_Scan(0b0011);
+    cyBOT_SERVO_cal();
+//    lcd_clear();
+    return 0;
+}

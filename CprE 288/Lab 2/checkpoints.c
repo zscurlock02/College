@@ -34,30 +34,30 @@ int main(void) {
 //
 //    }
 
-    double distanceLeft = 2000;
-    while (distanceLeft > 0) {
-        distanceLeft -= move_forward(sensor_data, distanceLeft);
-        if (distanceLeft > 0) {
-            if (sensor_data -> bumpRight == 1 && sensor_data -> bumpLeft == 1) {
-                distanceLeft += move_backward(sensor_data, 150);
-                turn_left(sensor_data, 90);
-                move_forward(sensor_data, 250);
-                turn_right(sensor_data, 90);
-            }
-            else if (sensor_data -> bumpRight == 1) {
-                distanceLeft += move_backward(sensor_data, 150);
-                turn_left(sensor_data, 90);
-                move_forward(sensor_data, 250);
-                turn_right(sensor_data, 90);
-            }
-            else if (sensor_data -> bumpLeft == 1) {
-                distanceLeft += move_backward(sensor_data, 150);
-                turn_right(sensor_data, 90);
-                move_forward(sensor_data, 250);
-                turn_left(sensor_data, 90);
-            }
-        }
-    }
+//    double distanceLeft = 2000;
+//    while (distanceLeft > 0) {
+//        distanceLeft -= move_forward(sensor_data, distanceLeft);
+//        if (distanceLeft > 0) {
+//            if (sensor_data -> bumpRight == 1 && sensor_data -> bumpLeft == 1) {
+//                distanceLeft += move_backward(sensor_data, 150);
+//                turn_left(sensor_data, 90);
+//                move_forward(sensor_data, 250);
+//                turn_right(sensor_data, 90);
+//            }
+//            else if (sensor_data -> bumpRight == 1) {
+//                distanceLeft += move_backward(sensor_data, 150);
+//                turn_left(sensor_data, 90);
+//                move_forward(sensor_data, 250);
+//                turn_right(sensor_data, 90);
+//            }
+//            else if (sensor_data -> bumpLeft == 1) {
+//                distanceLeft += move_backward(sensor_data, 150);
+//                turn_right(sensor_data, 90);
+//                move_forward(sensor_data, 250);
+//                turn_left(sensor_data, 90);
+//            }
+//        }
+//    }
 
 
     oi_free(sensor_data);
