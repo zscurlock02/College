@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11e vcom 2023.2_2 2023.06, Jun  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit
+T_opt
+!s110 1696977247
+V7<cl3L_B8gE]Ei>l2Dd_z1
+Z2 04 14 9 work controlunit_tb testbench 1
+=1-0050569b5031-6525d15f-417a2-727c
+R0
+Z3 !s12b OEM100
+Z4 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2023.2_2;77
+R1
+T_opt1
+!s110 1696977257
+Vm_GiVgFK6La^:_GMXSH801
+R2
+=1-0050569b5031-6525d169-86a55-72c7
+R0
+R3
+R4
+o-quiet -auto_acc_if_foreign -work work +acc
+R5
+n@_opt1
+R6
+Econtrolunit
+Z7 w1696976575
+Z8 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z9 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z10 8/home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit/ControlUnit.vhd
+Z11 F/home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit/ControlUnit.vhd
+l0
+L4 1
+VVn?Q4KUJaJ?>?61oI03GS1
+!s100 o9:M6o<LeI483PFjRHH[91
+Z12 OL;C;2023.2_2;77
+32
+Z13 !s110 1696977241
+!i10b 1
+Z14 !s108 1696977241.000000
+Z15 !s90 -reportprogress|300|-work|work|/home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit/ControlUnit.vhd|
+Z16 !s107 /home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit/ControlUnit.vhd|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Abehavioral
+R8
+R9
+DEx4 work 11 controlunit 0 22 Vn?Q4KUJaJ?>?61oI03GS1
+!i122 1
+l23
+L22 126
+V5=SSnVBSI`a9:iNkdje6W1
+!s100 ]R4J4kb?Z4K>AXT6@RWa<2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Econtrolunit_tb
+Z19 w1696977189
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z21 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+R8
+R9
+!i122 0
+R1
+Z22 8/home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit/ControlUnit_tb.vhd
+Z23 F/home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit/ControlUnit_tb.vhd
+l0
+L6 1
+V^679CW`g?QWKzV>e[031O0
+!s100 IlezTgV3nPFI<fz:jTaIA1
+R12
+32
+R13
+!i10b 1
+R14
+Z24 !s90 -reportprogress|300|-work|work|/home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit/ControlUnit_tb.vhd|
+Z25 !s107 /home/connor66/CprE381/Proj1/cpre381-toolflow/internal/boilerplate_src/TopLevel/ControlUnit/ControlUnit_tb.vhd|
+!i113 0
+R17
+R18
+Atestbench
+R20
+R21
+R8
+R9
+DEx4 work 14 controlunit_tb 0 22 ^679CW`g?QWKzV>e[031O0
+!i122 0
+l20
+L9 67
+V]CR`4WzgGRH9=B@0gWHLj3
+!s100 66kBC@A6CaGIK3]H7VBX]2
+R12
+32
+R13
+!i10b 1
+R14
+R24
+R25
+!i113 0
+R17
+R18
