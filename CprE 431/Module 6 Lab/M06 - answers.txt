@@ -1,0 +1,33 @@
+Task1
+Rule1: sudo iptables -A FORWARD -p icmp -j DROP
+Client1-to-Webserver1: blocked
+Webserver2-to-Client2: blocked 
+Client1-to-Firewall: allowed
+Firewall-to-Webserver1: allowed
+Client1-to-Client2: allowed
+Rule2: sudo iptables -A INPUT -p icmp -j DROP
+Client1-to-Webserver1: allowed
+Webserver2-to-Client2: allowed
+Client1-to-Firewall: blocked
+Firewall-to-Webserver1: blocked
+Client1-to-Client2: allowed
+Rule3: sudo iptables -A OUTPUT -p icmp -j DROP
+Client1-to-Webserver1: allowed
+Webserver2-to-Client2: allowed
+Client1-to-Firewall: blocked
+Firewall-to-Webserver1: blocked
+Client1-to-Client2: allowed
+Explain-difference-between-chains:
+write your answer here
+
+Task2
+Rule4: 
+Explain-TCP-retransmissions-and-interval:
+
+Task3
+Rule5: 
+http-messages:
+
+Task5
+Rule6:
+Rule7:

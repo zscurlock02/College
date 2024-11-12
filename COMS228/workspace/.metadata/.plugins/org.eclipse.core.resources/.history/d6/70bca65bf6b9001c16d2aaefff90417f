@@ -1,0 +1,14 @@
+
+public class problem1 {
+	public static void main(String[] args) {
+		double test[] = {0.5, 1.5, 2.5, 3.5};
+		System.out.println(average(test));
+	}
+	public static double average(double[] arr) {
+		double tally = 0.0;
+		for(int i = 0; i < arr.length - 1; i++) {
+			tally += arr[i];
+		}
+		return tally;
+	}
+}

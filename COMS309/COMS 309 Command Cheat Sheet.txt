@@ -1,0 +1,20 @@
+CMD commands for Files (any text file like .java or .c)
+_______________________________________________________
+
+touch a.txt        //creates files
+cat   a.txt		 //displays the file
+rm    a.txt		 //deletes the file
+mv    a.txt c.txt  //moves the file
+cp    a.txt b.txt  //copies the file
+vi    a.txt        //Edit files, hit 'i' to start editing and esc to stop. Hit ':' and input 'w' to write the file, and 'q' to exit vim. 
+
+
+Entering Server
+_______________
+
+mysql -u root -p                                             //Will then prompt you to endter the password for the server
+scp   a.txt scurlock@coms-309-005.class.iastate.edu:~/b.txt  //copies a.txt into the server and renames it to b.txt
+java -jar "jar file name"                                    //runs the jar file
+screen                                                       //runs shell in the backgroup, run the java program and hold ctrl+a+d then it keeps the jar file running when you log out
+ps -ael|grep screen                                          //type this outside the screen shell thing , it will list the files running
+kill -9 8729 (or "process id")	                         //after typing last command type this command to stop processes

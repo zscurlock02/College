@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Dec  4 15:30:58 2022
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Standard Edition
+Revision Name : Decrementer_NR
+Top-level Entity Name : Decrementer_NR
+Family : Cyclone IV E
+Total logic elements : 12
+    Total combinational functions : 12
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 16
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

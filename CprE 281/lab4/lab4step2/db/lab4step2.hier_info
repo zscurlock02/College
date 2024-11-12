@@ -1,0 +1,35 @@
+|lab4step2
+AC <= MULTIPLEXER:inst1.AC
+M => MULTIPLEXER:inst1.M
+P => normal:inst.P
+P => POWERSAVING:inst2.P
+T => normal:inst.T
+T => POWERSAVING:inst2.T
+H => normal:inst.H
+H => POWERSAVING:inst2.H
+
+
+|lab4step2|MULTIPLEXER:inst1
+M => Mux0.IN8
+M => Mux1.IN8
+E => Mux0.IN9
+E => Mux1.IN9
+F => Mux0.IN10
+F => Mux1.IN10
+AC <= AC$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4step2|normal:inst
+P => Decoder0.IN0
+T => Decoder0.IN1
+H => Decoder0.IN2
+E <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4step2|POWERSAVING:inst2
+T => Decoder0.IN0
+H => Decoder0.IN1
+P => Decoder0.IN2
+F <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

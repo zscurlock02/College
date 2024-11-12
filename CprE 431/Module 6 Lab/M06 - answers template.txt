@@ -1,0 +1,33 @@
+Task1
+Rule1: iptables -A ...
+client1-to-webserver2 allowed
+webserver2-to-client1: blocked 
+client1-to-webserver1: ...
+webserver1-to-client1:
+client1-to-client2:
+Rule2: iptables -A ...
+client1-to-webserver2:
+webserver2-to-client1:
+client1-to-webserver1:
+webserver1-to-client1:
+client1-to-client2:
+Rule3:
+client1-to-webserver2:
+webserver2-to-client1:
+client1-to-webserver1:
+webserver1-to-client1:
+client1-to-client2:
+Explain-difference-between-chains:
+write your answer here
+
+Task2
+Rule4: 
+Explain-TCP-retransmissions-and-interval:
+
+Task3
+Rule5: 
+http-messages:
+
+Task5
+Rule6:
+Rule7:

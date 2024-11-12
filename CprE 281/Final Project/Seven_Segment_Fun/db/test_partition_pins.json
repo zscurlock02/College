@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "A",
+					"strict" : false
+				},
+				{
+					"name" : "B",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "D",
+					"strict" : false
+				},
+				{
+					"name" : "E",
+					"strict" : false
+				},
+				{
+					"name" : "F",
+					"strict" : false
+				},
+				{
+					"name" : "G",
+					"strict" : false
+				},
+				{
+					"name" : "A2",
+					"strict" : false
+				},
+				{
+					"name" : "B3",
+					"strict" : false
+				},
+				{
+					"name" : "C4",
+					"strict" : false
+				},
+				{
+					"name" : "D5",
+					"strict" : false
+				},
+				{
+					"name" : "E6",
+					"strict" : false
+				},
+				{
+					"name" : "F7",
+					"strict" : false
+				},
+				{
+					"name" : "G8",
+					"strict" : false
+				},
+				{
+					"name" : "A9",
+					"strict" : false
+				},
+				{
+					"name" : "B10",
+					"strict" : false
+				},
+				{
+					"name" : "C11",
+					"strict" : false
+				},
+				{
+					"name" : "D12",
+					"strict" : false
+				},
+				{
+					"name" : "E13",
+					"strict" : false
+				},
+				{
+					"name" : "F14",
+					"strict" : false
+				},
+				{
+					"name" : "G15",
+					"strict" : false
+				},
+				{
+					"name" : "x4",
+					"strict" : false
+				},
+				{
+					"name" : "x5",
+					"strict" : false
+				},
+				{
+					"name" : "x6",
+					"strict" : false
+				},
+				{
+					"name" : "x7",
+					"strict" : false
+				},
+				{
+					"name" : "x0",
+					"strict" : false
+				},
+				{
+					"name" : "x1",
+					"strict" : false
+				},
+				{
+					"name" : "x2",
+					"strict" : false
+				},
+				{
+					"name" : "x3",
+					"strict" : false
+				},
+				{
+					"name" : "x8",
+					"strict" : false
+				},
+				{
+					"name" : "x9",
+					"strict" : false
+				},
+				{
+					"name" : "x10",
+					"strict" : false
+				},
+				{
+					"name" : "x11",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

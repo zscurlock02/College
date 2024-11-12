@@ -1,0 +1,14 @@
+# Compile of lab8step2.v was successful.
+# Compile of mux4to1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab8step2 work.mux4to1
+# vsim -gui work.lab8step2 work.mux4to1 
+# Start time: 08:40:40 on Oct 27,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab8step2(fast)
+# Loading work.mux4to1(fast)
+do shifter.do
+add wave -position insertpoint sim:/lab8step2/*
+do shifter.do
+# End time: 08:53:27 on Oct 27,2022, Elapsed time: 0:12:47
+# Errors: 0, Warnings: 6

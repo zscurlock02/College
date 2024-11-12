@@ -1,0 +1,31 @@
+|mProj_step3
+B <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+W => inst.IN0
+W => mProj:E.W
+X => inst2.IN0
+X => Q.IN1
+X => mProj:E.X
+Y => A.IN2
+Y => Q.IN2
+Y => mProj:E.Y
+Y => inst3.IN0
+Z => A.IN3
+Z => Q.IN3
+Z => mProj:E.Z
+Z => inst4.IN0
+
+
+|mProj_step3|mProj:E
+W => B.IN0
+W => B.IN0
+X => B.IN0
+X => B.IN1
+Y => B.IN1
+Y => B.IN1
+Y => B.IN1
+Z => B.IN1
+Z => B.IN1
+Z => B.IN1
+B <= B.DB_MAX_OUTPUT_PORT_TYPE
+
+

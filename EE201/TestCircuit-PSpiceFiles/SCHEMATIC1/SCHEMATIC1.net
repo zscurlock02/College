@@ -1,0 +1,4 @@
+* source TESTCIRCUIT
+V_V1         N00113 0 5Vdc
+R_R1         N00113 N00120  1k TC=0,0 
+R_R2         0 N00120  1k TC=0,0 

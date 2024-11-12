@@ -1,0 +1,51 @@
+|4Muxes
+f4 <= 2to1Mux:inst3.f
+0_x4 => 2to1Mux:inst3.0
+S => 2to1Mux:inst3.S
+S => 2to1Mux:inst4.S
+S => 2to1Mux:inst6.S
+S => 2to1Mux:inst7.S
+1_y4 => 2to1Mux:inst3.1
+f5 <= 2to1Mux:inst4.f
+0_x5 => 2to1Mux:inst4.0
+1_y5 => 2to1Mux:inst4.1
+f6 <= 2to1Mux:inst6.f
+0_x6 => 2to1Mux:inst6.0
+1_y6 => 2to1Mux:inst6.1
+f7 <= 2to1Mux:inst7.f
+0_x7 => 2to1Mux:inst7.0
+1_y7 => 2to1Mux:inst7.1
+
+
+|4Muxes|2to1Mux:inst3
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|4Muxes|2to1Mux:inst4
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|4Muxes|2to1Mux:inst6
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|4Muxes|2to1Mux:inst7
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+

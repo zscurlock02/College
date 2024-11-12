@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at converter_50mhz_to_1hz.v(3): object "clock_out" differs only in case from object "Clock_out" in the same scope File: U:/CPRE281/Final Project/TestingDecrementer/converter_50mhz_to_1hz.v Line: 3

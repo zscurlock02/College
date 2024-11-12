@@ -1,0 +1,107 @@
+|8_Bit_Parallel_Access_Register
+Out7 <= dff0.DB_MAX_OUTPUT_PORT_TYPE
+Reset => dff0.ACLR
+Reset => dff1.ACLR
+Reset => inst8.ACLR
+Reset => inst9.ACLR
+Reset => inst13.ACLR
+Reset => inst15.ACLR
+Reset => inst17.ACLR
+Reset => inst19.ACLR
+Clock => dff0.CLK
+Clock => dff1.CLK
+Clock => inst8.CLK
+Clock => inst9.CLK
+Clock => inst13.CLK
+Clock => inst15.CLK
+Clock => inst17.CLK
+Clock => inst19.CLK
+Load => 2to1Mux:mux0.S
+Load => 2to1Mux:mux1.S
+Load => 2to1Mux:inst11.S
+Load => 2to1Mux:inst12.S
+Load => 2to1Mux:inst14.S
+Load => 2to1Mux:inst16.S
+Load => 2to1Mux:inst18.S
+Load => 2to1Mux:inst20.S
+In7 => 2to1Mux:mux0.1
+Out6 <= dff1.DB_MAX_OUTPUT_PORT_TYPE
+In6 => 2to1Mux:mux1.1
+Out5 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+In5 => 2to1Mux:inst11.1
+Out4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+In4 => 2to1Mux:inst12.1
+Out3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+In3 => 2to1Mux:inst14.1
+Out2 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+In2 => 2to1Mux:inst16.1
+Out1 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+In1 => 2to1Mux:inst18.1
+Out0 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+In0 => 2to1Mux:inst20.1
+
+
+|8_Bit_Parallel_Access_Register|2to1Mux:mux0
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|8_Bit_Parallel_Access_Register|2to1Mux:mux1
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|8_Bit_Parallel_Access_Register|2to1Mux:inst11
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|8_Bit_Parallel_Access_Register|2to1Mux:inst12
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|8_Bit_Parallel_Access_Register|2to1Mux:inst14
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|8_Bit_Parallel_Access_Register|2to1Mux:inst16
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|8_Bit_Parallel_Access_Register|2to1Mux:inst18
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|8_Bit_Parallel_Access_Register|2to1Mux:inst20
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+

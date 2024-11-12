@@ -1,0 +1,14 @@
+|seven_seg_decoder
+x0 => Decoder0.IN0
+x1 => Decoder0.IN1
+x2 => Decoder0.IN2
+x3 => Decoder0.IN3
+A <= A$latch.DB_MAX_OUTPUT_PORT_TYPE
+B <= B$latch.DB_MAX_OUTPUT_PORT_TYPE
+C <= C$latch.DB_MAX_OUTPUT_PORT_TYPE
+D <= D$latch.DB_MAX_OUTPUT_PORT_TYPE
+E <= E$latch.DB_MAX_OUTPUT_PORT_TYPE
+F <= F$latch.DB_MAX_OUTPUT_PORT_TYPE
+G <= G$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

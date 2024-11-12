@@ -1,0 +1,44 @@
+# Compile of mProj_step3.v was successful.
+vsim -gui work.mProj_step3
+# vsim -gui work.mProj_step3 
+# Start time: 08:59:58 on Oct 06,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/mProj/mProj_step3/mProj_step3.v(55): Module 'mProj' is not defined.
+#  For instance 'b2v_E' at path 'mProj_step3'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 09:00:03 on Oct 06,2022, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 5
+vsim -gui work.mProj_step3
+# vsim -gui work.mProj_step3 
+# Start time: 09:03:58 on Oct 06,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/mProj/mProj_step3/mProj_step3.v(55): Module 'mProj' is not defined.
+#  For instance 'b2v_E' at path 'mProj_step3'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 09:04:04 on Oct 06,2022, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 1
+vsim -gui work.mProj_step3
+# vsim -gui work.mProj_step3 
+# Start time: 09:04:16 on Oct 06,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/mProj/mProj_step3/mProj_step3.v(55): Module 'mProj' is not defined.
+#  For instance 'b2v_E' at path 'mProj_step3'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 09:04:21 on Oct 06,2022, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 1
+# Compile of mProj_step3.v was successful.
+# Compile of mProj.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.mProj_step3
+# vsim -gui work.mProj_step3 
+# Start time: 09:17:47 on Oct 06,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mProj_step3(fast)
+add wave -position insertpoint sim:/mProj_step3/*
+do mProj_step3.do

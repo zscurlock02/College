@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "f4",
+					"strict" : false
+				},
+				{
+					"name" : "f5",
+					"strict" : false
+				},
+				{
+					"name" : "f6",
+					"strict" : false
+				},
+				{
+					"name" : "f7",
+					"strict" : false
+				},
+				{
+					"name" : "1_y4",
+					"strict" : false
+				},
+				{
+					"name" : "0_x4",
+					"strict" : false
+				},
+				{
+					"name" : "S",
+					"strict" : false
+				},
+				{
+					"name" : "1_y5",
+					"strict" : false
+				},
+				{
+					"name" : "0_x5",
+					"strict" : false
+				},
+				{
+					"name" : "1_y6",
+					"strict" : false
+				},
+				{
+					"name" : "0_x6",
+					"strict" : false
+				},
+				{
+					"name" : "1_y7",
+					"strict" : false
+				},
+				{
+					"name" : "0_x7",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

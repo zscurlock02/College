@@ -1,0 +1,84 @@
+
+**** 09/21/22 18:59:16 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-NVM2"  [ u:\ee201\lab3b-pspicefiles\nvm2-pspicefiles\schematic1\nvm2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "NVM2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of U:\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 .00001 
+.OPTIONS NOPAGE
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NVM2
+R_R2         N03013 N02977  1.5k TC=0,0 
+R_R4         N02996 0  3.3k TC=0,0 
+R_R3         N02981 N02977  2.2k TC=0,0 
+R_R1         N02970 N02977  1k TC=0,0 
+R_R5         0 N02985  4.7k TC=0,0 
+V_V3         N03013 0 5Vdc
+V_V4         N02970 N02996 10Vdc
+V_V5         N02981 N02985 10Vdc
+R_R6         N02970 N02981  10k TC=0,0 
+
+**** RESUMING NVM2.cir ****
+.END
+
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02970)    7.5687 (N02977)    6.8095 (N02981)    7.7931 (N02985)   -2.2069     
+
+(N02996)   -2.4313 (N03013)    5.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3         1.206E-03
+    V_V4        -7.368E-04
+    V_V5        -4.696E-04
+
+    TOTAL POWER DISSIPATION   6.03E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+
+  Total job time (using Solver 1)   =         .09
+

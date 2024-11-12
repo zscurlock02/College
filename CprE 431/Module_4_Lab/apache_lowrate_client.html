@@ -1,0 +1,71 @@
+<!-- SlowHTTPTest Analysis chart (c) Sergey Shekyan, Victor Agababov 2011  -->
+ <html>
+   <head>
+   <style>
+     body { font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; background-color: transparent; color: #333; -webkit-font-smoothing: antialiased; } 
+     .slow_results {font-size: 12px; } 
+     </style>
+     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+     <script type="text/javascript">
+       google.load("visualization", "1", {packages:["corechart"]});
+       google.setOnLoadCallback(drawChart);
+       function drawChart() {
+         var data = new google.visualization.DataTable();
+         data.addColumn('string', 'Seconds');
+         data.addColumn('number', 'Closed');
+         data.addColumn('number', 'Pending');
+         data.addColumn('number', 'Connected');
+         data.addColumn('number', 'Service available');
+         data.addRows([
+['0',0,1,0,1000],
+['1',0,128,61,1000],
+['2',0,248,128,1000],
+['3',0,364,199,1000],
+['4',0,493,257,1000],
+['5',0,621,317,1000],
+['6',0,624,376,0],
+['7',0,577,423,0],
+['8',0,515,485,0],
+['9',86,372,542,0],
+['10',121,292,587,0],
+['11',133,208,659,0],
+['12',133,143,724,0],
+['13',133,85,782,0],
+['14',167,44,789,0],
+['15',206,13,781,0],
+['16',265,0,735,0],
+['17',322,0,678,0],
+['18',359,0,641,0],
+['19',421,0,579,0],
+['20',482,0,518,0],
+['21',490,0,510,0],
+['22',510,0,490,0],
+['23',534,0,466,0],
+['24',557,0,443,0],
+['25',573,0,427,0],
+['26',597,0,403,0],
+['27',621,0,379,0],
+['28',632,0,368,0],
+['29',632,0,368,0],
+['30',632,0,368,0],
+['31',632,0,368,0],
+['32',632,0,368,0],
+['33',632,0,368,0],
+['34',632,0,368,0],
+['35',634,0,366,0],
+['36',634,0,366,0],
+['37',634,0,366,0],
+        ]);
+         var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+         chart.draw(data, {'width': 600, 'height': 360, 'title': 'Test results against http://server/',         hAxis: {'title': 'Seconds', 'titleTextStyle': {color: '#FF0000'}},
+         vAxis: {'title': 'Connections', 'titleTextStyle': {color: '#FF0000'}, 'viewWindowMode':'maximized'}
+     });
+     }
+     </script>
+     <title>SlowHTTPTest(tm) Connection Results</title>
+   </head>
+   <body>
+   <p><table class='slow_results' border='0'><tr><th>Test parameters</th></tr><tr><td><b>Test type</b></td><td>SLOW HEADERS</td></tr><tr><td><b>Number of connections</b></td><td>1000</td></tr><tr><td><b>Verb</b></td><td>GET</td></tr><tr><td><b>Content-Length header value</b></td><td>4096</td></tr><tr><td><b>Cookie</b></td><td></td></tr><tr><td><b>Extra data max length</b></td><td>52</td></tr><tr><td><b>Interval between follow up data</b></td><td>10 seconds</td></tr><tr><td><b>Connections per seconds</b></td><td>200</td></tr><tr><td><b>Timeout for probe connection</b></td><td>3</td></tr><tr><td><b>Target test duration</b></td><td>120 seconds</td></tr><tr><td><b>Using proxy</b></td><td>no proxy  </td></tr></table></p>
+     <div id="chart_div"></div>
+   </body>
+ </html>

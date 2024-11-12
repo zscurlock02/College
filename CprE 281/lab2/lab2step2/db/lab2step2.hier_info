@@ -1,0 +1,16 @@
+|lab2step2
+ALARM <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Cabbage => inst1.IN0
+Cabbage => inst.IN0
+Cabbage => inst5.IN0
+Cabbage => inst4.IN0
+Goat => inst2.IN0
+Goat => inst8.IN1
+Goat => inst5.IN1
+Goat => inst4.IN1
+Wolf => inst3.IN0
+Wolf => inst8.IN2
+Wolf => inst6.IN2
+Wolf => inst4.IN2
+
+

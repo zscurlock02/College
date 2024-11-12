@@ -1,0 +1,313 @@
+|Decrementer_NR
+f0 <= 8Muxes:inst4.f0
+Y0 => Decrementer:inst.Y0
+Y0 => inst8.IN7
+Y1 => Decrementer:inst.Y1
+Y1 => inst8.IN6
+Y2 => Decrementer:inst.Y2
+Y2 => inst8.IN4
+Y3 => Decrementer:inst.Y3
+Y3 => inst8.IN5
+Y4 => Decrementer:inst.Y4
+Y4 => inst8.IN3
+Y5 => Decrementer:inst.Y5
+Y5 => inst8.IN1
+Y6 => Decrementer:inst.Y6
+Y6 => inst8.IN2
+Y7 => Decrementer:inst.Y7
+Y7 => inst8.IN0
+f1 <= 8Muxes:inst4.f1
+f2 <= 8Muxes:inst4.f2
+f3 <= 8Muxes:inst4.f3
+f4 <= 8Muxes:inst4.f4
+f5 <= 8Muxes:inst4.f5
+f6 <= 8Muxes:inst4.f6
+f7 <= 8Muxes:inst4.f7
+
+
+|Decrementer_NR|8Muxes:inst4
+f0 <= 2to1Mux:inst5.f
+0_x0 => 2to1Mux:inst5.0
+S => 2to1Mux:inst5.S
+S => 2to1Mux:inst.S
+S => 2to1Mux:inst1.S
+S => 2to1Mux:inst2.S
+S => 2to1Mux:inst3.S
+S => 2to1Mux:inst4.S
+S => 2to1Mux:inst6.S
+S => 2to1Mux:inst7.S
+1_y0 => 2to1Mux:inst5.1
+f1 <= 2to1Mux:inst.f
+0_x1 => 2to1Mux:inst.0
+1_y1 => 2to1Mux:inst.1
+f2 <= 2to1Mux:inst1.f
+0_x2 => 2to1Mux:inst1.0
+1_y2 => 2to1Mux:inst1.1
+f3 <= 2to1Mux:inst2.f
+0_x3 => 2to1Mux:inst2.0
+1_y3 => 2to1Mux:inst2.1
+f4 <= 2to1Mux:inst3.f
+0_x4 => 2to1Mux:inst3.0
+1_y4 => 2to1Mux:inst3.1
+f5 <= 2to1Mux:inst4.f
+0_x5 => 2to1Mux:inst4.0
+1_y5 => 2to1Mux:inst4.1
+f6 <= 2to1Mux:inst6.f
+0_x6 => 2to1Mux:inst6.0
+1_y6 => 2to1Mux:inst6.1
+f7 <= 2to1Mux:inst7.f
+0_x7 => 2to1Mux:inst7.0
+1_y7 => 2to1Mux:inst7.1
+
+
+|Decrementer_NR|8Muxes:inst4|2to1Mux:inst5
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Decrementer_NR|8Muxes:inst4|2to1Mux:inst
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Decrementer_NR|8Muxes:inst4|2to1Mux:inst1
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Decrementer_NR|8Muxes:inst4|2to1Mux:inst2
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Decrementer_NR|8Muxes:inst4|2to1Mux:inst3
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Decrementer_NR|8Muxes:inst4|2to1Mux:inst4
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Decrementer_NR|8Muxes:inst4|2to1Mux:inst6
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Decrementer_NR|8Muxes:inst4|2to1Mux:inst7
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Decrementer_NR|Decrementer:inst
+S0 <= FA:inst.S
+Y0 => FA:inst.Y
+S1 <= FA:inst5.S
+Y1 => FA:inst5.Y
+S2 <= FA:inst4.S
+Y2 => FA:inst4.Y
+S3 <= FA:inst6.S
+Y3 => FA:inst6.Y
+S4 <= FA:inst2.S
+Y4 => FA:inst2.Y
+S5 <= FA:inst3.S
+Y5 => FA:inst3.Y
+S6 <= FA:inst8.S
+Y6 => FA:inst8.Y
+S7 <= FA:inst7.S
+Y7 => FA:inst7.Y
+
+
+|Decrementer_NR|Decrementer:inst|FA:inst
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decrementer_NR|Decrementer:inst|FA:inst5
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decrementer_NR|Decrementer:inst|FA:inst4
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decrementer_NR|Decrementer:inst|FA:inst6
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decrementer_NR|Decrementer:inst|FA:inst2
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decrementer_NR|Decrementer:inst|FA:inst3
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decrementer_NR|Decrementer:inst|FA:inst8
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decrementer_NR|Decrementer:inst|FA:inst7
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

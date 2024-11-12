@@ -1,0 +1,52 @@
+
+**** 09/21/22 17:37:30 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-NVM"  [ U:\EE201\lab3b-PSpiceFiles\SCHEMATIC1\NVM.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "NVM.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of U:\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0.00001s 
+.OPTIONS NOPAGE
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB3B
+V_V1         N00211 N00247 10Vdc
+R_R1         N00211 N00218  1k TC=0,0 
+R_R2         N00247 N00218  1.5k TC=0,0 
+R_R3         N00218 N00222  3.3k TC=0,0 
+R_R4         N00211 N00222  2.2k TC=0,0 
+R_R5         N00247 N00222  4.7k TC=0,0 
+
+**** RESUMING NVM.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00211 is floating
+
+ERROR(ORPSIM-15142): Node N00247 is floating
+
+ERROR(ORPSIM-15142): Node N00218 is floating
+
+ERROR(ORPSIM-15142): Node N00222 is floating
+

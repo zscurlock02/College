@@ -1,0 +1,22 @@
+U:/CPRE281/lab7/lab7step1/lab7step1.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab7/lab7step1/lab7step1.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module lab7step1
+
+Top level modules:
+	lab7step1
+
+} {} {}} U:/CPRE281/lab7/lab7step1/adder_4bit.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab7/lab7step1/adder_4bit.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module adder_4bit
+
+Top level modules:
+	adder_4bit
+
+} {} {}} U:/CPRE281/lab7/lab7step1/add_sub.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab7/lab7step1/add_sub.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module add_sub
+
+Top level modules:
+	add_sub
+
+} {} {}}

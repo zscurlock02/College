@@ -1,0 +1,116 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dU:/CPRE281/lab4
+T_opt
+!s110 1663854326
+VINE^3J35EfJ=3fc9X?KMF0
+04 9 4 work lab4step2 fast 0
+04 11 4 work MULTIPLEXER fast 0
+04 6 4 work normal fast 0
+04 11 4 work POWERSAVING fast 0
+=1-b07b252790e3-632c66f5-1fe-1184
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2022.2;75
+vlab4step2
+Z2 !s110 1663854306
+!i10b 1
+!s100 =e^ilEdfK3IEIJMO>cOI[1
+I==z3ChbWe>iK;oA@HcVjV2
+Z3 dU:/CPRE281/lab4/lab4step2
+w1663854258
+8U:/CPRE281/lab4/lab4step2/lab4step2.v
+FU:/CPRE281/lab4/lab4step2/lab4step2.v
+!i122 0
+L0 20 44
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2022.2;75
+r1
+!s85 0
+31
+!s108 1663854305.000000
+!s107 U:/CPRE281/lab4/lab4step2/lab4step2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab4/lab4step2/lab4step2.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vMULTIPLEXER
+R2
+!i10b 1
+!s100 6AR7HA1gW7a7C`cU2]Q812
+IQ`Gkz4g>^mNUm5;JfLM0>1
+R3
+w1663853971
+8U:/CPRE281/lab4/lab4step2/MULTIPLEXER.v
+FU:/CPRE281/lab4/lab4step2/MULTIPLEXER.v
+!i122 1
+L0 1 31
+R4
+R5
+r1
+!s85 0
+31
+Z7 !s108 1663854306.000000
+!s107 U:/CPRE281/lab4/lab4step2/MULTIPLEXER.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab4/lab4step2/MULTIPLEXER.v|
+!i113 0
+R6
+R1
+n@m@u@l@t@i@p@l@e@x@e@r
+vnormal
+Z8 !s110 1663854307
+!i10b 1
+!s100 dAHLUd;8z6JOU>`<9cABL2
+ITdd_:dd;m=3m58k^dTMJo2
+R3
+w1663854104
+8U:/CPRE281/lab4/lab4step2/normal.v
+FU:/CPRE281/lab4/lab4step2/normal.v
+!i122 2
+L0 2 32
+R4
+R5
+r1
+!s85 0
+31
+R7
+!s107 U:/CPRE281/lab4/lab4step2/normal.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab4/lab4step2/normal.v|
+!i113 0
+R6
+R1
+vPOWERSAVING
+R8
+!i10b 1
+!s100 d0WWG^WE<dWPGfF7[Ic@=1
+IEfdUA`:XiS2PnDld^;`km0
+R3
+w1663854088
+8U:/CPRE281/lab4/lab4step2/POWERSAVING.v
+FU:/CPRE281/lab4/lab4step2/POWERSAVING.v
+!i122 3
+L0 4 34
+R4
+R5
+r1
+!s85 0
+31
+!s108 1663854307.000000
+!s107 U:/CPRE281/lab4/lab4step2/POWERSAVING.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab4/lab4step2/POWERSAVING.v|
+!i113 0
+R6
+R1
+n@p@o@w@e@r@s@a@v@i@n@g

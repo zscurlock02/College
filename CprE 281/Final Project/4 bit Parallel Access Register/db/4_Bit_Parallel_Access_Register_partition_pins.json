@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Out7",
+					"strict" : false
+				},
+				{
+					"name" : "Out6",
+					"strict" : false
+				},
+				{
+					"name" : "Out5",
+					"strict" : false
+				},
+				{
+					"name" : "Out4",
+					"strict" : false
+				},
+				{
+					"name" : "In7",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Load",
+					"strict" : false
+				},
+				{
+					"name" : "In6",
+					"strict" : false
+				},
+				{
+					"name" : "In5",
+					"strict" : false
+				},
+				{
+					"name" : "In4",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

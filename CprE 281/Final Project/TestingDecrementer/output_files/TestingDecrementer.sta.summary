@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clock'
+Slack : -4.192
+TNS   : -67.813
+
+Type  : Slow 1200mV 85C Model Setup 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : -1.494
+TNS   : -10.136
+
+Type  : Slow 1200mV 85C Model Hold 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clock'
+Slack : 0.653
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -45.405
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 0C Model Setup 'Clock'
+Slack : -3.734
+TNS   : -57.705
+
+Type  : Slow 1200mV 0C Model Setup 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : -1.246
+TNS   : -8.336
+
+Type  : Slow 1200mV 0C Model Hold 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clock'
+Slack : 0.596
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -45.405
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Fast 1200mV 0C Model Setup 'Clock'
+Slack : -1.681
+TNS   : -17.813
+
+Type  : Fast 1200mV 0C Model Setup 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : -0.209
+TNS   : -0.824
+
+Type  : Fast 1200mV 0C Model Hold 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clock'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -37.992
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Converter_50mHz_To_1Hz:inst|clock_out'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

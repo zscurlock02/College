@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class problem5 {
+	public static String getPassword() {
+		Scanner scnr = new Scanner(System.in);
+		String password = "";
+		String password2 = "";
+		boolean passwordsDontMatch = true;
+		
+		while(true) {
+			System.out.println("Enter your password: ");
+			password = scnr.next();
+			System.out.println("Confirm password: ");
+			password2 = scnr.next();
+			
+			if(password.equals(password2)) {
+				passwordsDontMatch = false;
+			}
+		}
+	}
+}

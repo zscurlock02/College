@@ -1,0 +1,36 @@
+m255
+K4
+z0
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2022.2 2022.04, Apr 25 2022
+T_opt
+!s110 1668090880
+V1k>lnOMBlzfRfjKclR06@2
+04 11 4 work lab10step2a fast 0
+=1-b07b252790e3-636d0bff-31f-2990
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2022.2;75
+vlab10step2a
+!s110 1668090870
+!i10b 1
+!s100 ?EAW6`QcdmRFYn:UJ=Cna1
+I18[3N>jGKNEdP[AX@=NhF2
+dU:/CPRE281/lab10/lab10step2
+w1668090831
+8U:/CPRE281/lab10/lab10step2/lab10step2a.v
+FU:/CPRE281/lab10/lab10step2/lab10step2a.v
+!i122 1
+L0 20 121
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2022.2;75
+r1
+!s85 0
+31
+!i113 0
+o-work work
+R1

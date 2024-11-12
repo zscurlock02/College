@@ -1,0 +1,29 @@
+U:/CPRE281/lab4/lab4step2/POWERSAVING.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab4/lab4step2/POWERSAVING.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module POWERSAVING
+
+Top level modules:
+	POWERSAVING
+
+} {} {}} U:/CPRE281/lab4/lab4step2/normal.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab4/lab4step2/normal.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module normal
+
+Top level modules:
+	normal
+
+} {} {}} U:/CPRE281/lab4/lab4step2/lab4step2.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab4/lab4step2/lab4step2.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module lab4step2
+
+Top level modules:
+	lab4step2
+
+} {} {}} U:/CPRE281/lab4/lab4step2/MULTIPLEXER.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab4/lab4step2/MULTIPLEXER.v
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module MULTIPLEXER
+
+Top level modules:
+	MULTIPLEXER
+
+} {} {}}

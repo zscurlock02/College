@@ -1,0 +1,25 @@
+module Converter_50mHz_To_1Hz(clock_in, clock_out);
+	input clock_in;
+	output reg clock_out = 1'b0;
+	
+	parameter system_clock = 5000000;
+	parameter Clock_out = 1000000;
+	parameter max = system_clock / (2 * Clock_out);
+	
+	reg [8:0] counter = 0;
+	
+	always@(posedge clock_in) begin
+		if(counter == max - 1)
+			begin
+			counter <= 0;
+			clock_out <= ~clock_out;
+			end
+			
+		else
+			begin
+			counter <= counter + 1'd1;
+			end
+		clock_out <= (counter == 9'd0);
+		end
+   
+endmodule

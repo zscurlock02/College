@@ -1,0 +1,74 @@
+
+**** 09/21/22 17:30:27 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TestSim"  [ U:\EE201\TestCircuit-PSpiceFiles\SCHEMATIC1\TestSim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TestSim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of U:\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0.00001s 
+.OPTIONS NOPAGE
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TESTCIRCUIT
+V_V1         N00113 0 5Vdc
+R_R1         N00113 N00120  1k TC=0,0 
+R_R2         0 N00120  1k TC=0,0 
+
+**** RESUMING TestSim.cir ****
+.END
+
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00113)    5.0000 (N00120)    2.5000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.500E-03
+
+    TOTAL POWER DISSIPATION   1.25E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+
+  Total job time (using Solver 1)   =         .09
+

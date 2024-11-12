@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec  5 13:50:45 2022
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Standard Edition
+Revision Name : TestingDecrementer
+Top-level Entity Name : TestingDecrementer
+Family : Cyclone IV E
+Total logic elements : 196
+    Total combinational functions : 196
+    Dedicated logic registers : 41
+Total registers : 41
+Total pins : 31
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

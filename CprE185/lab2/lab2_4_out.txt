@@ -1,0 +1,15 @@
+The value of 6427 + 1725 is 8152
+The value of (6971 * 3925) - 95 is 27361080
+The value of 79 + 12 / 5 is 81.00
+The value of 3640.0 / 107.9 is 33.73
+The value of (22 / 3) * 3 is 21
+The value of 22 / (3 * 3) is 2
+The value of 22 / (3 * 3) is 2.00
+The value of 22 / 3 * 3 is 21.00
+The value of (22.0 / 3) * 3.0 is 22.00
+The value of 22.0 / (3 * 3.0) is 2
+The value of 22.0 / 3.0 * 3.0 is 22.00
+The radius is 3.750805
+The area is 88.395211
+There are 4.267200 meters
+It is 76.000000 degrees Fahrenheit, or 24.444444 degrees Centigrade

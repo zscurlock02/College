@@ -1,0 +1,265 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "f0",
+					"strict" : false
+				},
+				{
+					"name" : "f1",
+					"strict" : false
+				},
+				{
+					"name" : "f2",
+					"strict" : false
+				},
+				{
+					"name" : "f3",
+					"strict" : false
+				},
+				{
+					"name" : "f4",
+					"strict" : false
+				},
+				{
+					"name" : "f5",
+					"strict" : false
+				},
+				{
+					"name" : "f6",
+					"strict" : false
+				},
+				{
+					"name" : "f7",
+					"strict" : false
+				},
+				{
+					"name" : "f8",
+					"strict" : false
+				},
+				{
+					"name" : "f9",
+					"strict" : false
+				},
+				{
+					"name" : "f10",
+					"strict" : false
+				},
+				{
+					"name" : "f11",
+					"strict" : false
+				},
+				{
+					"name" : "f12",
+					"strict" : false
+				},
+				{
+					"name" : "f13",
+					"strict" : false
+				},
+				{
+					"name" : "f14",
+					"strict" : false
+				},
+				{
+					"name" : "f15",
+					"strict" : false
+				},
+				{
+					"name" : "f16",
+					"strict" : false
+				},
+				{
+					"name" : "f17",
+					"strict" : false
+				},
+				{
+					"name" : "f18",
+					"strict" : false
+				},
+				{
+					"name" : "f19",
+					"strict" : false
+				},
+				{
+					"name" : "f20",
+					"strict" : false
+				},
+				{
+					"name" : "1y0",
+					"strict" : false
+				},
+				{
+					"name" : "0x0",
+					"strict" : false
+				},
+				{
+					"name" : "S",
+					"strict" : false
+				},
+				{
+					"name" : "1y1",
+					"strict" : false
+				},
+				{
+					"name" : "0x1",
+					"strict" : false
+				},
+				{
+					"name" : "1y2",
+					"strict" : false
+				},
+				{
+					"name" : "0x2",
+					"strict" : false
+				},
+				{
+					"name" : "1y3",
+					"strict" : false
+				},
+				{
+					"name" : "0x3",
+					"strict" : false
+				},
+				{
+					"name" : "1y4",
+					"strict" : false
+				},
+				{
+					"name" : "0x4",
+					"strict" : false
+				},
+				{
+					"name" : "1y5",
+					"strict" : false
+				},
+				{
+					"name" : "0x5",
+					"strict" : false
+				},
+				{
+					"name" : "1y6",
+					"strict" : false
+				},
+				{
+					"name" : "0x6",
+					"strict" : false
+				},
+				{
+					"name" : "1y7",
+					"strict" : false
+				},
+				{
+					"name" : "0x7",
+					"strict" : false
+				},
+				{
+					"name" : "1y8",
+					"strict" : false
+				},
+				{
+					"name" : "0x8",
+					"strict" : false
+				},
+				{
+					"name" : "1y9",
+					"strict" : false
+				},
+				{
+					"name" : "0x9",
+					"strict" : false
+				},
+				{
+					"name" : "1y10",
+					"strict" : false
+				},
+				{
+					"name" : "0x10",
+					"strict" : false
+				},
+				{
+					"name" : "1y11",
+					"strict" : false
+				},
+				{
+					"name" : "0x11",
+					"strict" : false
+				},
+				{
+					"name" : "1y12",
+					"strict" : false
+				},
+				{
+					"name" : "0x12",
+					"strict" : false
+				},
+				{
+					"name" : "1y13",
+					"strict" : false
+				},
+				{
+					"name" : "0x13",
+					"strict" : false
+				},
+				{
+					"name" : "1y14",
+					"strict" : false
+				},
+				{
+					"name" : "0x14",
+					"strict" : false
+				},
+				{
+					"name" : "1y15",
+					"strict" : false
+				},
+				{
+					"name" : "0x15",
+					"strict" : false
+				},
+				{
+					"name" : "1y16",
+					"strict" : false
+				},
+				{
+					"name" : "0x16",
+					"strict" : false
+				},
+				{
+					"name" : "1y17",
+					"strict" : false
+				},
+				{
+					"name" : "0x17",
+					"strict" : false
+				},
+				{
+					"name" : "1y18",
+					"strict" : false
+				},
+				{
+					"name" : "0x18",
+					"strict" : false
+				},
+				{
+					"name" : "1y19",
+					"strict" : false
+				},
+				{
+					"name" : "0x19",
+					"strict" : false
+				},
+				{
+					"name" : "1y20",
+					"strict" : false
+				},
+				{
+					"name" : "0x20",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

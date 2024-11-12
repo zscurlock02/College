@@ -1,0 +1,716 @@
+|Testing4BitDecrementer
+A1 <= seven_seg_decoder:inst6.A
+CLK_IN => clock_generator:inst2.CLK_IN
+S => inst10.IN0
+1y0 => 4Muxes:inst11.y0
+1y1 => 4Muxes:inst11.y1
+1y2 => 4Muxes:inst11.y2
+1y3 => 4Muxes:inst11.y3
+B1 <= seven_seg_decoder:inst6.B
+C1 <= seven_seg_decoder:inst6.C
+D1 <= seven_seg_decoder:inst6.D
+E1 <= seven_seg_decoder:inst6.E
+F1 <= seven_seg_decoder:inst6.F
+G1 <= seven_seg_decoder:inst6.G
+A2 <= seven_seg_decoder:inst15.A
+2y0 => 4Muxes:inst17.y0
+2y1 => 4Muxes:inst17.y1
+2y2 => 4Muxes:inst17.y2
+2y3 => 4Muxes:inst17.y3
+B2 <= seven_seg_decoder:inst15.B
+C2 <= seven_seg_decoder:inst15.C
+D2 <= seven_seg_decoder:inst15.D
+E2 <= seven_seg_decoder:inst15.E
+F2 <= seven_seg_decoder:inst15.F
+G2 <= seven_seg_decoder:inst15.G
+A0 <= seven_seg_decoder:inst4.A
+y0 => 4Muxes:inst.y0
+y1 => 4Muxes:inst.y1
+y2 => 4Muxes:inst.y2
+y3 => 4Muxes:inst.y3
+B0 <= seven_seg_decoder:inst4.B
+C0 <= seven_seg_decoder:inst4.C
+D0 <= seven_seg_decoder:inst4.D
+E0 <= seven_seg_decoder:inst4.E
+F0 <= seven_seg_decoder:inst4.F
+G0 <= seven_seg_decoder:inst4.G
+
+
+|Testing4BitDecrementer|seven_seg_decoder:inst6
+x0 => Decoder0.IN0
+x1 => Decoder0.IN1
+x2 => Decoder0.IN2
+x3 => Decoder0.IN3
+A <= A$latch.DB_MAX_OUTPUT_PORT_TYPE
+B <= B$latch.DB_MAX_OUTPUT_PORT_TYPE
+C <= C$latch.DB_MAX_OUTPUT_PORT_TYPE
+D <= D$latch.DB_MAX_OUTPUT_PORT_TYPE
+E <= E$latch.DB_MAX_OUTPUT_PORT_TYPE
+F <= F$latch.DB_MAX_OUTPUT_PORT_TYPE
+G <= G$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst8
+Out7 <= dff0.DB_MAX_OUTPUT_PORT_TYPE
+Reset => dff0.ACLR
+Reset => dff1.ACLR
+Reset => inst8.ACLR
+Reset => inst9.ACLR
+Clock => dff0.CLK
+Clock => dff1.CLK
+Clock => inst8.CLK
+Clock => inst9.CLK
+Load => 2to1Mux:mux0.S
+Load => 2to1Mux:mux1.S
+Load => 2to1Mux:inst11.S
+Load => 2to1Mux:inst12.S
+In7 => 2to1Mux:mux0.1
+Out6 <= dff1.DB_MAX_OUTPUT_PORT_TYPE
+In6 => 2to1Mux:mux1.1
+Out5 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+In5 => 2to1Mux:inst11.1
+Out4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+In4 => 2to1Mux:inst12.1
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst8|2to1Mux:mux0
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst8|2to1Mux:mux1
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst8|2to1Mux:inst11
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst8|2to1Mux:inst12
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|clock_generator:inst2
+CLK_OUT <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|Testing4BitDecrementer|clock_generator:inst2|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|Testing4BitDecrementer|clock_generator:inst2|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|Testing4BitDecrementer|4Muxes:inst11
+f0 <= 2to1Mux:inst3.f
+x0 => 2to1Mux:inst3.0
+S => 2to1Mux:inst3.S
+S => 2to1Mux:inst4.S
+S => 2to1Mux:inst6.S
+S => 2to1Mux:inst7.S
+y0 => 2to1Mux:inst3.1
+f1 <= 2to1Mux:inst4.f
+x1 => 2to1Mux:inst4.0
+y1 => 2to1Mux:inst4.1
+f2 <= 2to1Mux:inst6.f
+x2 => 2to1Mux:inst6.0
+y2 => 2to1Mux:inst6.1
+f3 <= 2to1Mux:inst7.f
+x3 => 2to1Mux:inst7.0
+y3 => 2to1Mux:inst7.1
+
+
+|Testing4BitDecrementer|4Muxes:inst11|2to1Mux:inst3
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst11|2to1Mux:inst4
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst11|2to1Mux:inst6
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst11|2to1Mux:inst7
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst13
+S0 <= FA:inst.S
+Y0 => FA:inst.Y
+S1 <= FA:inst5.S
+Y1 => FA:inst5.Y
+S2 <= FA:inst4.S
+Y2 => FA:inst4.Y
+S3 <= FA:inst6.S
+Y3 => FA:inst6.Y
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst13|FA:inst
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst13|FA:inst5
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst13|FA:inst4
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst13|FA:inst6
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|seven_seg_decoder:inst15
+x0 => Decoder0.IN0
+x1 => Decoder0.IN1
+x2 => Decoder0.IN2
+x3 => Decoder0.IN3
+A <= A$latch.DB_MAX_OUTPUT_PORT_TYPE
+B <= B$latch.DB_MAX_OUTPUT_PORT_TYPE
+C <= C$latch.DB_MAX_OUTPUT_PORT_TYPE
+D <= D$latch.DB_MAX_OUTPUT_PORT_TYPE
+E <= E$latch.DB_MAX_OUTPUT_PORT_TYPE
+F <= F$latch.DB_MAX_OUTPUT_PORT_TYPE
+G <= G$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst16
+Out7 <= dff0.DB_MAX_OUTPUT_PORT_TYPE
+Reset => dff0.ACLR
+Reset => dff1.ACLR
+Reset => inst8.ACLR
+Reset => inst9.ACLR
+Clock => dff0.CLK
+Clock => dff1.CLK
+Clock => inst8.CLK
+Clock => inst9.CLK
+Load => 2to1Mux:mux0.S
+Load => 2to1Mux:mux1.S
+Load => 2to1Mux:inst11.S
+Load => 2to1Mux:inst12.S
+In7 => 2to1Mux:mux0.1
+Out6 <= dff1.DB_MAX_OUTPUT_PORT_TYPE
+In6 => 2to1Mux:mux1.1
+Out5 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+In5 => 2to1Mux:inst11.1
+Out4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+In4 => 2to1Mux:inst12.1
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst16|2to1Mux:mux0
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst16|2to1Mux:mux1
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst16|2to1Mux:inst11
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst16|2to1Mux:inst12
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst17
+f0 <= 2to1Mux:inst3.f
+x0 => 2to1Mux:inst3.0
+S => 2to1Mux:inst3.S
+S => 2to1Mux:inst4.S
+S => 2to1Mux:inst6.S
+S => 2to1Mux:inst7.S
+y0 => 2to1Mux:inst3.1
+f1 <= 2to1Mux:inst4.f
+x1 => 2to1Mux:inst4.0
+y1 => 2to1Mux:inst4.1
+f2 <= 2to1Mux:inst6.f
+x2 => 2to1Mux:inst6.0
+y2 => 2to1Mux:inst6.1
+f3 <= 2to1Mux:inst7.f
+x3 => 2to1Mux:inst7.0
+y3 => 2to1Mux:inst7.1
+
+
+|Testing4BitDecrementer|4Muxes:inst17|2to1Mux:inst3
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst17|2to1Mux:inst4
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst17|2to1Mux:inst6
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst17|2to1Mux:inst7
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst19
+S0 <= FA:inst.S
+Y0 => FA:inst.Y
+S1 <= FA:inst5.S
+Y1 => FA:inst5.Y
+S2 <= FA:inst4.S
+Y2 => FA:inst4.Y
+S3 <= FA:inst6.S
+Y3 => FA:inst6.Y
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst19|FA:inst
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst19|FA:inst5
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst19|FA:inst4
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst19|FA:inst6
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|seven_seg_decoder:inst4
+x0 => Decoder0.IN0
+x1 => Decoder0.IN1
+x2 => Decoder0.IN2
+x3 => Decoder0.IN3
+A <= A$latch.DB_MAX_OUTPUT_PORT_TYPE
+B <= B$latch.DB_MAX_OUTPUT_PORT_TYPE
+C <= C$latch.DB_MAX_OUTPUT_PORT_TYPE
+D <= D$latch.DB_MAX_OUTPUT_PORT_TYPE
+E <= E$latch.DB_MAX_OUTPUT_PORT_TYPE
+F <= F$latch.DB_MAX_OUTPUT_PORT_TYPE
+G <= G$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst7
+Out7 <= dff0.DB_MAX_OUTPUT_PORT_TYPE
+Reset => dff0.ACLR
+Reset => dff1.ACLR
+Reset => inst8.ACLR
+Reset => inst9.ACLR
+Clock => dff0.CLK
+Clock => dff1.CLK
+Clock => inst8.CLK
+Clock => inst9.CLK
+Load => 2to1Mux:mux0.S
+Load => 2to1Mux:mux1.S
+Load => 2to1Mux:inst11.S
+Load => 2to1Mux:inst12.S
+In7 => 2to1Mux:mux0.1
+Out6 <= dff1.DB_MAX_OUTPUT_PORT_TYPE
+In6 => 2to1Mux:mux1.1
+Out5 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+In5 => 2to1Mux:inst11.1
+Out4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+In4 => 2to1Mux:inst12.1
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst7|2to1Mux:mux0
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst7|2to1Mux:mux1
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst7|2to1Mux:inst11
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Parallel_Access_Register:inst7|2to1Mux:inst12
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst
+f0 <= 2to1Mux:inst3.f
+x0 => 2to1Mux:inst3.0
+S => 2to1Mux:inst3.S
+S => 2to1Mux:inst4.S
+S => 2to1Mux:inst6.S
+S => 2to1Mux:inst7.S
+y0 => 2to1Mux:inst3.1
+f1 <= 2to1Mux:inst4.f
+x1 => 2to1Mux:inst4.0
+y1 => 2to1Mux:inst4.1
+f2 <= 2to1Mux:inst6.f
+x2 => 2to1Mux:inst6.0
+y2 => 2to1Mux:inst6.1
+f3 <= 2to1Mux:inst7.f
+x3 => 2to1Mux:inst7.0
+y3 => 2to1Mux:inst7.1
+
+
+|Testing4BitDecrementer|4Muxes:inst|2to1Mux:inst3
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst|2to1Mux:inst4
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst|2to1Mux:inst6
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4Muxes:inst|2to1Mux:inst7
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => inst3.IN0
+1 => inst1.IN1
+0 => inst.IN0
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst3
+S0 <= FA:inst.S
+Y0 => FA:inst.Y
+S1 <= FA:inst5.S
+Y1 => FA:inst5.Y
+S2 <= FA:inst4.S
+Y2 => FA:inst4.Y
+S3 <= FA:inst6.S
+Y3 => FA:inst6.Y
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst3|FA:inst
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst3|FA:inst5
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst3|FA:inst4
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Testing4BitDecrementer|4_Bit_Decrementer:inst3|FA:inst6
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,30 @@
+# reading C:/questasim64_2022.2/win64/../modelsim.ini
+# Loading project lab10stepb
+# Compile of lab10step2b.v failed with 1 errors.
+# Compile of lab10step2b.v was successful.
+vsim -gui work.lab10step2b
+# vsim -gui work.lab10step2b 
+# Start time: 09:51:39 on Nov 10,2022
+# ** Note: (vsim-3812) Design is being optimized...# End time: 09:57:27 on Nov 10,2022, Elapsed time: 1:22:49
+# Errors: 0, Warnings: 5
+
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: scurlock  Hostname: CO2042-18  ProcessID: 10640
+#           Attempting to use alternate WLF file "./wlftkmqsbk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkmqsbk
+do lab10counter.do
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 09:57:19 on Nov 10,2022, Elapsed time: 0:05:40
+# Errors: 0, Warnings: 11

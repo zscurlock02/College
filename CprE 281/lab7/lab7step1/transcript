@@ -1,0 +1,17 @@
+# Compile of add_sub.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of lab7step1.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.add_sub work.adder_4bit work.lab7step1
+# vsim -gui work.add_sub work.adder_4bit work.lab7step1 
+# Start time: 08:45:53 on Oct 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.add_sub(fast)
+# Loading work.adder_4bit(fast)
+# Loading work.lab7step1(fast)
+add wave -position insertpoint sim:/add_sub/*
+do run.do
+clear
+# invalid command name "clear"
+# End time: 09:02:45 on Oct 20,2022, Elapsed time: 0:16:52
+# Errors: 0, Warnings: 8

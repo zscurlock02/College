@@ -1,0 +1,185 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "A0",
+					"strict" : false
+				},
+				{
+					"name" : "B0",
+					"strict" : false
+				},
+				{
+					"name" : "C0",
+					"strict" : false
+				},
+				{
+					"name" : "D0",
+					"strict" : false
+				},
+				{
+					"name" : "E0",
+					"strict" : false
+				},
+				{
+					"name" : "F0",
+					"strict" : false
+				},
+				{
+					"name" : "G0",
+					"strict" : false
+				},
+				{
+					"name" : "A1",
+					"strict" : false
+				},
+				{
+					"name" : "B1",
+					"strict" : false
+				},
+				{
+					"name" : "C1",
+					"strict" : false
+				},
+				{
+					"name" : "D1",
+					"strict" : false
+				},
+				{
+					"name" : "E1",
+					"strict" : false
+				},
+				{
+					"name" : "F1",
+					"strict" : false
+				},
+				{
+					"name" : "G1",
+					"strict" : false
+				},
+				{
+					"name" : "A2",
+					"strict" : false
+				},
+				{
+					"name" : "B2",
+					"strict" : false
+				},
+				{
+					"name" : "C2",
+					"strict" : false
+				},
+				{
+					"name" : "D2",
+					"strict" : false
+				},
+				{
+					"name" : "E2",
+					"strict" : false
+				},
+				{
+					"name" : "F2",
+					"strict" : false
+				},
+				{
+					"name" : "G2",
+					"strict" : false
+				},
+				{
+					"name" : "A3",
+					"strict" : false
+				},
+				{
+					"name" : "B3",
+					"strict" : false
+				},
+				{
+					"name" : "C3",
+					"strict" : false
+				},
+				{
+					"name" : "D3",
+					"strict" : false
+				},
+				{
+					"name" : "E3",
+					"strict" : false
+				},
+				{
+					"name" : "F3",
+					"strict" : false
+				},
+				{
+					"name" : "G3",
+					"strict" : false
+				},
+				{
+					"name" : "0x0",
+					"strict" : false
+				},
+				{
+					"name" : "0x1",
+					"strict" : false
+				},
+				{
+					"name" : "0x2",
+					"strict" : false
+				},
+				{
+					"name" : "0x3",
+					"strict" : false
+				},
+				{
+					"name" : "1x0",
+					"strict" : false
+				},
+				{
+					"name" : "1x1",
+					"strict" : false
+				},
+				{
+					"name" : "1x2",
+					"strict" : false
+				},
+				{
+					"name" : "1x3",
+					"strict" : false
+				},
+				{
+					"name" : "2x0",
+					"strict" : false
+				},
+				{
+					"name" : "2x1",
+					"strict" : false
+				},
+				{
+					"name" : "2x2",
+					"strict" : false
+				},
+				{
+					"name" : "2x3",
+					"strict" : false
+				},
+				{
+					"name" : "3x0",
+					"strict" : false
+				},
+				{
+					"name" : "3x1",
+					"strict" : false
+				},
+				{
+					"name" : "3x2",
+					"strict" : false
+				},
+				{
+					"name" : "3x3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

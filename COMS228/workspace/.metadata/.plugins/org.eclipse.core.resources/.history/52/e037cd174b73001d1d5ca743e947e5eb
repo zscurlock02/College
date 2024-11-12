@@ -1,0 +1,37 @@
+package edu.iastate.cs228.hw4;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String args[]) {
+		
+		int i = 0;
+		Scanner scnr = new Scanner(System.in);
+		File file;
+		
+		while(i == 0) {
+			System.out.println("Please enter filename to decode");
+			file = new File(scnr.next());
+			
+			try {
+				scnr = new Scanner(file);
+				i = 1;
+			}
+			
+			catch(Exception E){
+				System.out.println("File not found, please try again");
+			}
+		}
+		
+		String symbols = "";
+		String oneZero = "";
+		int counter = 0;
+		
+		while(scnr.hasNextLine()) {
+			String nextLine = scnr.nextLine();
+			
+		}
+	}
+}
