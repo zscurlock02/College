@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.junit.Test"/>
-    <fullyQualifiedTypeName name="org.junit.Before"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-</qualifiedTypeNameHistroy>
